@@ -2,6 +2,6 @@
 
 ## Registering a new account
 
-![](images/paste-B29D8E77.png)
+![Registration button on Data Portal landing screen](images/paste-B29D8E77.png)
 
 ## Joining a group
