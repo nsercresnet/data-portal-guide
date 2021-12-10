@@ -12,3 +12,21 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+.infobox {
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 1em;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .infobox p {
+  margin-bottom: 0px;
+}
+
+.info {
+  padding-left: 4em;
+  border: 2px solid #19bc9b;
+  background-image: url("images/information-fill.svg");
+}
