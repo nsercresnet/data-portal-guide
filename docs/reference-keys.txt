@@ -1,6 +1,8 @@
 overview
+navigation
 intro
 registering-a-new-account
+updating-your-profile
 joining-a-group
 data-layers
 uploading-a-new-layer
@@ -11,3 +13,6 @@ creating-maps
 embedding-maps
 metadata
 getting-help
+slack
+request-support
+external-resources
