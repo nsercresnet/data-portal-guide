@@ -4,7 +4,9 @@
 
 To get started, navigate to data.nsercresnet.ca and click "Register" in the top right.
 
-![Registration button on Data Portal landing screen](images/paste-B29D8E77.png)
+![](images/paste-3DCAE020.png)
+
+![](images/paste-E2DD497C.png)
 
 -   [E-mail]{.ul}: Address to affiliate with your account. This is where the system will send notifications.
 -   [Username]{.ul}: Your username should follow the pattern `firstname.lastname` (eg `john.clark`).
@@ -14,9 +16,42 @@ To get started, navigate to data.nsercresnet.ca and click "Register" in the top 
 Email notifications are sent from `resnet.data.portal@gmail.com`. Remember to check your spam folder!
 :::
 
-[Navigation](#navigation)
+Once you've signed up, a notification will be sent to the Data Portal Administrators to activate your new account. This may take some time (normal working hours).
 
-## Updating your profile
+![](images/paste-BD582B1A.png)
+
+After your account has been activated, you will receive an email notification.
+
+![](images/paste-C4CF7960.png)
+
+You can now sign in to the Data Portal using the credentials you've created.
+
+![](images/paste-0E1A69DA.png)
+
+![](images/paste-459D4584.png)
+
+## Managing your profile
+
+![](images/paste-FB2F4661.png)
+
+![](images/paste-374EC747.png)
+
+![](images/paste-490F3811.png)
+
+<!-- [Navigation](#navigation) -->
 
 ## Joining a group
 
+Navigate to `About > Groups`
+
+![](images/paste-6F9677B0.png)
+
+Locate the group by searching or browsing through pages.
+
+![](images/paste-6B945646.png)
+
+Click on a group to view it's details.
+
+Click `Join Group` to join the group.
+
+![](images/paste-7146D300.png)

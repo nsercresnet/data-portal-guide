@@ -1,0 +1,33 @@
+# Getting Help
+
+## Search
+
+Click the search button in the toolbar at the top of the page (or press the `F` key)
+
+## Slack
+
+## Request Support
+
+### Example
+
+    from: teset.user@email.com
+    to: admin@
+    subject: Data Portal - Unable to view layer
+
+    Hello,
+
+    I uploaded a new layer to the data portal but now I'm unable to view it.
+    about 2pm EST
+
+    [screenshot]
+
+    - username: test.user
+    - filename:
+    - format:
+    - size:
+    - projection:
+
+    Cheers,
+    Test User
+
+## External Resources

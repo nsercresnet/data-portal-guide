@@ -1,7 +1,47 @@
 # Data Layers
 
+## Preparing data
+
+filenames
+
+size limits
+
+### Spatial
+
+#### Projection
+
+Esri link
+
+##### Reprojecting
+
+-   Esri
+-   Qgis
+-   Gdal
+-   r
+-   python
+
+#### Vector
+
+#### Raster
+
+### Tabular
+
+### Other
+
 ## Uploading a new layer
+
+Note visibility
+
+Permissions - should be auto
 
 ## Styling layers
 
 ## Publishing layers
+
+### Publication Work Flow
+
+::: {style="background: white;"}
+![Data publication workflow](images/ResNet%20DP%20Workflow%20Portrait%20Headless%20trans.svg "Data publication workflow")
+:::
+
+![Data publication workflow](images/ResNet%20DP%20Workflow.svg "Data publication workflow")
