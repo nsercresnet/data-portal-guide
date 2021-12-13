@@ -2,33 +2,66 @@
 
 ## Registering a new account
 
+<div class="two-col">
+```{r, echo=F, fig.cap=c("Register link on the Data Portal home page")}
+
+knitr::include_graphics("images/paste-3DCAE020.png")
+
+```
 To get started, navigate to data.nsercresnet.ca and click "Register" in the top right.
+</div>
+<div class="two-col">
+```{r, echo=F, fig.cap=c("Sign up form")}
 
-![](images/paste-3DCAE020.png)
+knitr::include_graphics("images/paste-E2DD497C.png")
 
-![](images/paste-E2DD497C.png)
+```
+
+Fill in the form:
 
 -   [E-mail]{.ul}: Address to affiliate with your account. This is where the system will send notifications.
 -   [Username]{.ul}: Your username should follow the pattern `firstname.lastname` (eg `john.clark`).
 -   [Password]{.ul}: Create a strong password unique to this account. Consider using a password manager like [Bitwarden](https://bitwarden.com/).
+</div>
 
 ::: {.infobox .info}
 Email notifications are sent from `resnet.data.portal@gmail.com`. Remember to check your spam folder!
 :::
 
+<div class="two-col">
+```{r, echo=F, fig.cap=c("Account pending approval")}
+
+knitr::include_graphics("images/paste-BD582B1A.png")
+
+```
+
 Once you've signed up, a notification will be sent to the Data Portal Administrators to activate your new account. This may take some time (normal working hours).
+</div>
 
-![](images/paste-BD582B1A.png)
+<div class="two-col">
+```{r, echo=F, fig.cap=c("Account activated")}
 
+knitr::include_graphics("images/paste-C4CF7960.png")
+
+```
 After your account has been activated, you will receive an email notification.
+</div>
 
-![](images/paste-C4CF7960.png)
+<div class="two-col">
+```{r, echo=F, fig.cap=c("Sign in location")}
+
+knitr::include_graphics("images/paste-0E1A69DA.png")
+
+```
+
+```{r, echo=F, fig.cap=c("Sign in prompt")}
+
+knitr::include_graphics("images/paste-459D4584.png")
+
+```
 
 You can now sign in to the Data Portal using the credentials you've created.
-
-![](images/paste-0E1A69DA.png)
-
-![](images/paste-459D4584.png)
+</div>
 
 ## Managing your profile
 

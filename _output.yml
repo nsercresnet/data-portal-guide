@@ -9,6 +9,9 @@ bookdown::gitbook:
     sharing: null
     edit: https://github.com/nsercresnet/data-portal-guide/edit/main/%s
     info: false
+  includes:
+    in_header: in_header.html
+    after_body: after_body.html
 # bookdown::pdf_book:
 #   includes:
 #     in_header: preamble.tex

@@ -14,4 +14,9 @@ description: "Instructions for accessing and using the ResNet Data Portal."
 
 The ResNet Data Portal was developed using [GeoNode](https://geonode.org/), an open-source platform for sharing geospatial maps and data. This document is intended to summarize and supplement the official [GeoNode Documentation](https://docs.geonode.org/en/3.2.x/usage/index.html).
 
+
 <!-- ## Navigation -->
+
+
+
+

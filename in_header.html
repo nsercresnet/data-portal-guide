@@ -1,0 +1,93 @@
+
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+<style type="text/css">
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+/*
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+*/
+
+
+.plot-gal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.plot-gal .figure{
+  flex: 1 200px;
+}
+
+.plot-gal-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+  font-size: x-small;
+}
+
+.float-img-thumb{
+  display: block;
+  float: right;
+  max-width: 40%;
+  grid-template-columns: repeat(auto-fill,minmax(125px, 1fr));
+  clear: both;
+}
+
+.float-img-thumb .figure .caption{
+  line-height: 1.1;
+  text-align: right;
+  clear:right;
+  padding-top:.5em;
+}
+  
+.float-img-thumb .figure{
+  padding-left:1em;
+  float:right;
+}
+
+.float-img-thumb .figure .lb-fig{
+  float:right;
+}
+
+</style>
