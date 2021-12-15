@@ -1,0 +1,66 @@
+---
+# 
+# output:
+#   html_document:
+#     code_folding: hide
+---
+
+# Example Data
+
+A set of example data is provided for testing and exploring the Data Portal. The archive contains three datasets:
+
+-   `user_test_point.shp` - Example point shapefile
+-   `user_test_poly.shp` - Example polygon shapefile
+-   `user_test_raster.tif` - Example raster geotiff
+
+All files are projected in WGS84 (EPSG:4326). Layers created using this example data may be periodically deleted.
+
+1.  Download the [Example Data](data/example_data.zip) zip file
+
+2.  Extract the zip file on your local computer
+
+3.  [Upload](#uploading-a-new-layer) the layer(s)
+
+4.  Try out Data Portal functions
+
+------------------------------------------------------------------------
+
+These data were randomly generated using R:
+
+```{r message=FALSE, warning=FALSE, results=FALSE}
+
+library(tidyverse)
+library(sf)
+library(raster)
+
+# create bounding box somewhere in Monteregie
+example_bound <- st_polygon(list(cbind(
+    c(-73.48786, -72.49971, -72.49971, -73.48786, -73.48786), 
+    c(45.04368, 45.04368, 46.07541, 46.07541, 45.04368)
+  ))) %>% 
+  st_sfc(crs = 4326) %>% st_as_sf
+
+# create 9 random points within bounding box, attach dummy attributes
+example_rand_pt <- st_sample(example_bound, 9) %>% st_as_sf %>% 
+  mutate(
+    id = 1:9, 
+    name = letters[id], 
+    group = sample(c("Type 1", "Type 2", "Type 3"), n(), replace = TRUE),
+    value = runif(n(), 0, 1))
+
+# create raster where value = distance to nearest point
+example_dist_rast <- example_bound %>% raster %>% 
+  distanceFromPoints(., example_rand_pt %>% as_Spatial)
+
+# write out the files
+write_sf(example_bound, "data/example/user_test_poly.shp")
+write_sf(example_rand_pt, "data/example/user_test_point.shp")
+writeRaster(example_dist_rast, "data/example/user_test_raster.tif", overwrite = T)
+
+# zip for convenience
+example_files <- list.files("data/example/", full.names = T)
+if(length(example_files) > 0) {
+  zip("data/example_data.zip", example_files)
+}
+
+```

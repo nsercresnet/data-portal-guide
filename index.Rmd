@@ -4,19 +4,36 @@ title: "ResNet Data Portal User Guide"
 # date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
-link-citations: yes
+# bibliography: [book.bib, packages.bib]
+# biblio-style: apalike
+# link-citations: yes
 description: "Instructions for accessing and using the ResNet Data Portal."
+suppress-bibliography: true
+
 ---
 
 # Overview
 
-The ResNet Data Portal was developed using [GeoNode](https://geonode.org/), an open-source platform for sharing geospatial maps and data. This document is intended to summarize and supplement the official [GeoNode Documentation](https://docs.geonode.org/en/3.2.x/usage/index.html).
+Purpose of Data Portal
 
+The ResNet Data Portal was developed using [GeoNode](https://geonode.org/){target="_blank"}, an open-source platform for sharing geospatial maps and data. This document is intended to summarize and supplement the official [GeoNode Documentation](https://docs.geonode.org/en/3.2.x/usage/index.html){target="_blank"}.
+
+<!-- Living document -->
+
+<!-- report issues, submit content via github -->
+
+<!-- anchor links -->
 
 <!-- ## Navigation -->
 
+<!-- ## Getting started -->
 
+<!-- 1.  Register a new account. Activation required. -->
 
+<!-- 2.  Upload layer -->
 
+<!-- 3.  Combine -->
+
+<!-- 4.  Manage -->
+
+<!-- 5.  Publish -->

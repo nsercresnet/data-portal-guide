@@ -1,6 +1,17 @@
 # Maps
 
+> *We'll cover this in greater depth in a future workshop.*
+
 ## Creating maps
+
+<!-- Single layer + add in mapstore search -->
+
+<!-- Search + multi select -->
+
+<!-- GeoNode docs link -->
+
+Multiple layers can be combined and visualized within the Data Portal by creating maps. See [Managing Maps](https://docs.geonode.org/en/3.2.x/usage/managing_maps/index.html){target="_blank"} in the GeoNode documentation for more information.
 
 ## Embedding maps
 
+Maps created using the Data Portal can be shared externally, or embedded directly within other webpages. However, note that the visibility of a map is still dependent on the layers it contains. If layers are unpublished they will not be displayed. See [Publishing layers](#publishing-layers).

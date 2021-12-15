@@ -2,15 +2,17 @@
 
 ## Registering a new account
 
-<div class="two-col">
+::: two-col
 ```{r, echo=F, fig.cap=c("Register link on the Data Portal home page")}
 
 knitr::include_graphics("images/paste-3DCAE020.png")
 
 ```
-To get started, navigate to data.nsercresnet.ca and click "Register" in the top right.
-</div>
-<div class="two-col">
+
+To get started, navigate to the [ResNet Data Portal](https://data.nsercresnet.ca "ResNet Data Portal"){target="_blank"} and click "Register" in the top right.
+:::
+
+::: two-col
 ```{r, echo=F, fig.cap=c("Sign up form")}
 
 knitr::include_graphics("images/paste-E2DD497C.png")
@@ -22,13 +24,13 @@ Fill in the form:
 -   [E-mail]{.ul}: Address to affiliate with your account. This is where the system will send notifications.
 -   [Username]{.ul}: Your username should follow the pattern `firstname.lastname` (eg `john.clark`).
 -   [Password]{.ul}: Create a strong password unique to this account. Consider using a password manager like [Bitwarden](https://bitwarden.com/).
-</div>
+:::
 
 ::: {.infobox .info}
 Email notifications are sent from `resnet.data.portal@gmail.com`. Remember to check your spam folder!
 :::
 
-<div class="two-col">
+::: two-col
 ```{r, echo=F, fig.cap=c("Account pending approval")}
 
 knitr::include_graphics("images/paste-BD582B1A.png")
@@ -36,18 +38,23 @@ knitr::include_graphics("images/paste-BD582B1A.png")
 ```
 
 Once you've signed up, a notification will be sent to the Data Portal Administrators to activate your new account. This may take some time (normal working hours).
-</div>
+:::
 
-<div class="two-col">
+::: two-col
 ```{r, echo=F, fig.cap=c("Account activated")}
 
 knitr::include_graphics("images/paste-C4CF7960.png")
 
 ```
-After your account has been activated, you will receive an email notification.
-</div>
 
-<div class="two-col">
+After your account has been activated, you will receive an email notification.
+:::
+
+::: {.infobox .info}
+At the time of writing, this email notification includes an invalid link. You can still navigate to <https://data.nsercresnet.ca> and login as normal.
+:::
+
+::: two-col
 ```{r, echo=F, fig.cap=c("Sign in location")}
 
 knitr::include_graphics("images/paste-0E1A69DA.png")
@@ -61,30 +68,96 @@ knitr::include_graphics("images/paste-459D4584.png")
 ```
 
 You can now sign in to the Data Portal using the credentials you've created.
-</div>
+:::
 
 ## Managing your profile
 
-![](images/paste-FB2F4661.png)
+<!-- <div class="two-col"> -->
 
-![](images/paste-374EC747.png)
+<!-- ```{r, echo=F, fig.cap=c("Navigate to profile")} -->
 
-![](images/paste-490F3811.png)
+<!-- knitr::include_graphics("images/paste-FB2F4661.png") -->
+
+<!-- ``` -->
+
+<!-- ```{r, echo=F, fig.cap=c("View profile")} -->
+
+<!-- knitr::include_graphics("images/paste-374EC747.png") -->
+
+<!-- ``` -->
+
+<!-- ```{r, echo=F, fig.cap=c("Edit profile")} -->
+
+<!-- knitr::include_graphics("images/paste-490F3811.png") -->
+
+<!-- ``` -->
+
+From your user profile you can:
+
+-   Customize your appearance (set a display name, add an avatar image)
+-   Manage your Data Portal preferences (notifications)
+-   View your activity and content (recent uploads, Layers)
+
+See the [GeoNode documentation](https://docs.geonode.org/en/3.2.x/usage/accounts_user_profile/updating_profile/index.html){target="_blank"} for more information about your user profile.
+
+<!-- </div> -->
+
+::: three-col
+```{r, echo=F, fig.cap=c("Navigate to profile")}
+
+knitr::include_graphics("images/paste-FB2F4661.png")
+
+```
+
+```{r, echo=F, fig.cap=c("View profile")}
+
+knitr::include_graphics("images/paste-374EC747.png")
+
+```
+
+```{r, echo=F, fig.cap=c("Edit profile")}
+
+knitr::include_graphics("images/paste-490F3811.png")
+
+```
+:::
 
 <!-- [Navigation](#navigation) -->
 
 ## Joining a group
 
-Navigate to `About > Groups`
+Groups have been created for each ResNet Landscape and Theme. Additional groups may be created for specific projects or for the special handling of sensitive data.
 
-![](images/paste-6F9677B0.png)
+Layers assigned to a group are visible to all group members. Group Managers moderate activity within a Group and review associated content. A Group Manager must `Approve` a layer for publication before it is visible to users outside of the Group.
 
-Locate the group by searching or browsing through pages.
+Layers can be assigned to a Group through the Metadata Wizard. See [Basic Metadata: Group](#page-1-basic-metadata).
 
-![](images/paste-6B945646.png)
+::: two-col
+```{r, echo=F, fig.cap=c("Navigate to groups")}
 
-Click on a group to view it's details.
+knitr::include_graphics("images/paste-6F9677B0.png")
+
+```
+
+Navigate to `About > Groups`.
+:::
+
+::: two-col
+```{r, echo=F, fig.cap=c("Browse groups")}
+
+knitr::include_graphics("images/paste-6B945646.png")
+
+```
+
+Locate the group by searching or browsing through pages. Click on a group to view details.
+:::
+
+::: two-col
+```{r, echo=F, fig.cap=c("Group details")}
+
+knitr::include_graphics("images/paste-7146D300.png")
+
+```
 
 Click `Join Group` to join the group.
-
-![](images/paste-7146D300.png)
+:::

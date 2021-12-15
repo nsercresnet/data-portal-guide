@@ -146,6 +146,70 @@ uncomment this part if you haven't added this code anywhere else
 </style>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -164,7 +228,10 @@ uncomment this part if you haven't added this code anywhere else
 <li><a href="./">ResNet Data Portal User Guide</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#getting-started"><i class="fa fa-check"></i><b>1.1</b> Getting started</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Account Management</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#registering-a-new-account"><i class="fa fa-check"></i><b>2.1</b> Registering a new account</a></li>
@@ -175,12 +242,21 @@ uncomment this part if you haven't added this code anywhere else
 <ul>
 <li class="chapter" data-level="3.1" data-path="data-layers.html"><a href="data-layers.html#preparing-data"><i class="fa fa-check"></i><b>3.1</b> Preparing data</a>
 <ul>
-<li class="chapter" data-level="3.1.1" data-path="data-layers.html"><a href="data-layers.html#spatial"><i class="fa fa-check"></i><b>3.1.1</b> Spatial</a></li>
-<li class="chapter" data-level="3.1.2" data-path="data-layers.html"><a href="data-layers.html#tabular"><i class="fa fa-check"></i><b>3.1.2</b> Tabular</a></li>
-<li class="chapter" data-level="3.1.3" data-path="data-layers.html"><a href="data-layers.html#other"><i class="fa fa-check"></i><b>3.1.3</b> Other</a></li>
+<li class="chapter" data-level="3.1.1" data-path="data-layers.html"><a href="data-layers.html#general"><i class="fa fa-check"></i><b>3.1.1</b> General</a></li>
+<li class="chapter" data-level="3.1.2" data-path="data-layers.html"><a href="data-layers.html#projection"><i class="fa fa-check"></i><b>3.1.2</b> Projection</a></li>
+<li class="chapter" data-level="3.1.3" data-path="data-layers.html"><a href="data-layers.html#vector"><i class="fa fa-check"></i><b>3.1.3</b> Vector</a></li>
+<li class="chapter" data-level="3.1.4" data-path="data-layers.html"><a href="data-layers.html#raster"><i class="fa fa-check"></i><b>3.1.4</b> Raster</a></li>
+<li class="chapter" data-level="3.1.5" data-path="data-layers.html"><a href="data-layers.html#other"><i class="fa fa-check"></i><b>3.1.5</b> Other</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="data-layers.html"><a href="data-layers.html#uploading-a-new-layer"><i class="fa fa-check"></i><b>3.2</b> Uploading a new layer</a></li>
-<li class="chapter" data-level="3.3" data-path="data-layers.html"><a href="data-layers.html#styling-layers"><i class="fa fa-check"></i><b>3.3</b> Styling layers</a></li>
+<li class="chapter" data-level="3.2" data-path="data-layers.html"><a href="data-layers.html#uploading-a-new-layer"><i class="fa fa-check"></i><b>3.2</b> Uploading a new layer</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data-layers.html"><a href="data-layers.html#adding-remote-services"><i class="fa fa-check"></i><b>3.2.1</b> Adding remote services</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="data-layers.html"><a href="data-layers.html#managing-layers"><i class="fa fa-check"></i><b>3.3</b> Managing layers</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="data-layers.html"><a href="data-layers.html#remove-layer"><i class="fa fa-check"></i><b>3.3.1</b> Remove layer</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-layers.html"><a href="data-layers.html#styling-layer"><i class="fa fa-check"></i><b>3.3.2</b> Styling layer</a></li>
+</ul></li>
 <li class="chapter" data-level="3.4" data-path="data-layers.html"><a href="data-layers.html#publishing-layers"><i class="fa fa-check"></i><b>3.4</b> Publishing layers</a>
 <ul>
 <li class="chapter" data-level="3.4.1" data-path="data-layers.html"><a href="data-layers.html#publication-work-flow"><i class="fa fa-check"></i><b>3.4.1</b> Publication Work Flow</a></li>
@@ -191,21 +267,28 @@ uncomment this part if you haven't added this code anywhere else
 <li class="chapter" data-level="4.1" data-path="maps.html"><a href="maps.html#creating-maps"><i class="fa fa-check"></i><b>4.1</b> Creating maps</a></li>
 <li class="chapter" data-level="4.2" data-path="maps.html"><a href="maps.html#embedding-maps"><i class="fa fa-check"></i><b>4.2</b> Embedding maps</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="metadata.html"><a href="metadata.html"><i class="fa fa-check"></i><b>5</b> Metadata</a></li>
-<li class="chapter" data-level="6" data-path="group-managers.html"><a href="group-managers.html"><i class="fa fa-check"></i><b>6</b> Group Managers</a>
+<li class="chapter" data-level="5" data-path="metadata.html"><a href="metadata.html"><i class="fa fa-check"></i><b>5</b> Metadata</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="group-managers.html"><a href="group-managers.html#activating-a-new-account"><i class="fa fa-check"></i><b>6.1</b> Activating a new account</a></li>
+<li class="chapter" data-level="5.1" data-path="metadata.html"><a href="metadata.html#wizard"><i class="fa fa-check"></i><b>5.1</b> Wizard</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="metadata.html"><a href="metadata.html#page-1-basic-metadata"><i class="fa fa-check"></i><b>5.1.1</b> Page 1: Basic Metadata</a></li>
+<li class="chapter" data-level="5.1.2" data-path="metadata.html"><a href="metadata.html#page-2-location-and-licenses"><i class="fa fa-check"></i><b>5.1.2</b> Page 2: Location and Licenses</a></li>
+<li class="chapter" data-level="5.1.3" data-path="metadata.html"><a href="metadata.html#page-3-optional-metadata"><i class="fa fa-check"></i><b>5.1.3</b> Page 3: Optional Metadata</a></li>
+<li class="chapter" data-level="5.1.4" data-path="metadata.html"><a href="metadata.html#page-4-dataset-attributes"><i class="fa fa-check"></i><b>5.1.4</b> Page 4: Dataset Attributes</a></li>
 </ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="group-managers.html"><a href="group-managers.html"><i class="fa fa-check"></i><b>6</b> Group Managers</a></li>
 <li class="chapter" data-level="7" data-path="getting-help.html"><a href="getting-help.html"><i class="fa fa-check"></i><b>7</b> Getting Help</a>
 <ul>
 <li class="chapter" data-level="7.1" data-path="getting-help.html"><a href="getting-help.html#search"><i class="fa fa-check"></i><b>7.1</b> Search</a></li>
 <li class="chapter" data-level="7.2" data-path="getting-help.html"><a href="getting-help.html#slack"><i class="fa fa-check"></i><b>7.2</b> Slack</a></li>
-<li class="chapter" data-level="7.3" data-path="getting-help.html"><a href="getting-help.html#request-support"><i class="fa fa-check"></i><b>7.3</b> Request Support</a>
+<li class="chapter" data-level="7.3" data-path="getting-help.html"><a href="getting-help.html#data-office-hours"><i class="fa fa-check"></i><b>7.3</b> Data Office Hours</a></li>
+<li class="chapter" data-level="7.4" data-path="getting-help.html"><a href="getting-help.html#request-support"><i class="fa fa-check"></i><b>7.4</b> Request Support</a>
 <ul>
-<li class="chapter" data-level="7.3.1" data-path="getting-help.html"><a href="getting-help.html#example"><i class="fa fa-check"></i><b>7.3.1</b> Example</a></li>
+<li class="chapter" data-level="7.4.1" data-path="getting-help.html"><a href="getting-help.html#example"><i class="fa fa-check"></i><b>7.4.1</b> Example</a></li>
 </ul></li>
-<li class="chapter" data-level="7.4" data-path="getting-help.html"><a href="getting-help.html#external-resources"><i class="fa fa-check"></i><b>7.4</b> External Resources</a></li>
 </ul></li>
+<li class="chapter" data-level="8" data-path="example-data.html"><a href="example-data.html"><i class="fa fa-check"></i><b>8</b> Example Data</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 </ul>
 
@@ -226,11 +309,19 @@ uncomment this part if you haven't added this code anywhere else
             <section class="normal" id="section-">
 <div id="maps" class="section level1" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Maps</h1>
+<blockquote>
+<p><em>We’ll cover this in greater depth in a future workshop.</em></p>
+</blockquote>
 <div id="creating-maps" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Creating maps</h2>
+<!-- Single layer + add in mapstore search -->
+<!-- Search + multi select -->
+<!-- GeoNode docs link -->
+<p>Multiple layers can be combined and visualized within the Data Portal by creating maps. See <a href="https://docs.geonode.org/en/3.2.x/usage/managing_maps/index.html" target="_blank">Managing Maps</a> in the GeoNode documentation for more information.</p>
 </div>
 <div id="embedding-maps" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> Embedding maps</h2>
+<p>Maps created using the Data Portal can be shared externally, or embedded directly within other webpages. However, note that the visibility of a map is still dependent on the layers it contains. If layers are unpublished they will not be displayed. See <a href="data-layers.html#publishing-layers">Publishing layers</a>.</p>
 
 </div>
 </div>

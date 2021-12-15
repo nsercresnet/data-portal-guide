@@ -1,1 +1,154 @@
 # Metadata
+
+Metadata is a critical component. A dataset must be associated with valid and comprehensive metadata.
+
+Metadata is an evolving process. Partial metadata is better than no metadata.
+
+The Data Portal provides several methods for managing metadata. This guide will focus on the Metadata Wizard. See the GeoNode documentation for the [Advanced Editing](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_metadata.html#metadata-advanced-editing){target="_blank"} and [Uploading](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_metadata.html#uploading-metadata){target="_blank"} of metadata.
+
+![](images/paste-A07DE6E2.png)
+
+## Wizard
+
+The Metadata Wizard guides the user through a series of forms intended to reflect the core required fields of the ISO Standard, and therefore generate fully compliant records for the layer. In practice, the fields and descriptions can be confusing. Descriptions of each field are provided here for clarification.
+
+### Page 1: Basic Metadata
+
+Thumbnail
+
+:   Preview image of the layer.
+
+    See layer management
+
+Title
+
+:   A clear and understandable title for the layer. This will be displayed in the Data Portal layer listings and the legend of any maps incorporating the layer.
+
+Abstract
+
+:   Brief description of the layer content.
+
+Date type
+
+:   Whether the date is associated with the *Creation*, *Publication*, or *Revision* of a layer
+
+Date
+
+:   Date of the event above
+
+Category
+
+:   Select a top-level category to describe the layer. Options are defined by the ISO metadata standard. The available choices may not be a perfect fit for your research. We can consider adding additional categories or adopting a network specific schema in the future. In the meantime, please select the closest match.
+
+Group
+
+:   Optionally, select a Group to associate the layer with.
+
+    Note: By assigning a layer to a group, that layer will be made visible to all members of the group. Be cautious when managing layers containing sensitive data. You do not need to assign a group to manage and view a layer you have uploaded.
+
+    See [Joining a group](#joining-a-group).
+
+Free-text Keywords
+
+:   A free form space to associate descriptive keywords with your data. Multiple keywords can be added by separating them with a comma (eg. `Watersheds, Hydrology, Nitrogen Cycle`). In the future, the Network may adapt a standard schema based on our shared framework. For now, use your best judgement to assign terms that will help users discover data relevant to their interests.
+
+### Page 2: Location and Licenses
+
+Language
+
+:   Language used within the dataset.
+
+    Note that some restrictions apply to filenaming, but not to the characters contained in the data itself. However, users should be aware that character encoding is an important consideration in data management. [This blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/){target="_blank"} will tell you more than you wanted to (but should) know.
+
+License
+
+:   If you have not identified a license for your dataset, select "Not Specified". If the relevant license is not reflected by the options available, contact the Data Administrator.
+
+    Licensing will need to be clarified before a layer can be published (visible to others).
+
+Attribution
+
+:   Still working on this translation
+
+Regions
+
+:   Currently `Canada` is the smallest scale available. Sub units may be added in the future. Use `Canada` for now.
+
+Data quality statements
+
+:   x
+
+Restrictions
+
+:   Another grey area. To be clarified.
+
+Other constraints
+
+:   Please use this space to convey any prior licensing, data sensitivity, or additional considerations applicable to your data.
+
+### Page 3: Optional Metadata
+
+Edition
+
+:   x
+
+DOI
+
+:   Link to a persistent [D]{.ul}igital [O]{.ul}bject [I]{.ul}dentifier, if available. The network may look into providing DOIs in the future.
+
+Purpose
+
+:   x
+
+Supplemental information
+
+:   x
+
+Temporal extent start
+
+:   x
+
+Temporal extent end
+
+:   x
+
+Maintenance frequency
+
+:   x
+
+Spatial representation type
+
+:   Relevant to our work are:
+
+    Raster data = `grid data is used to represent geographic data`
+
+    Vector data = `vector data is used to represent geographic data`
+
+    Tabular data = `textual or tabular data is used to represent geographic data`
+
+Point of contact
+
+:   Data portal user to contact with any inquiries about the data.
+
+    Point of contact, owner, and metadata author do not need to differ.
+
+Owner
+
+:   Data portal user who submitted and/or manages the layer within the Data Portal. Unpublished layers can only be viewed by the owner.
+
+    Point of contact, owner, and metadata author do not need to differ.
+
+Metadata author
+
+:   Data portal user responsible for authoring this metadata record.
+
+    Point of contact, owner, and metadata author do not need to differ.
+
+### Page 4: Dataset Attributes
+
+-   Attribute
+-   Label
+-   Description
+-   Display Order
+-   Display Type: Default = Label
+-   Visible

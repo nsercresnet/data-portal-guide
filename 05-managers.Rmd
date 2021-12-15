@@ -1,7 +1,9 @@
 # Group Managers
 
-## Activating a new account
+> *This topic will be covered in a future workshop.*
 
-![](images/paste-3C53BFFC.png)
+<!-- ## Activating a new account -->
 
-![](images/paste-694E97B1.png)
+<!-- ![](images/paste-3C53BFFC.png) -->
+
+<!-- ![](images/paste-694E97B1.png) -->

@@ -146,6 +146,70 @@ uncomment this part if you haven't added this code anywhere else
 </style>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -164,7 +228,10 @@ uncomment this part if you haven't added this code anywhere else
 <li><a href="./">ResNet Data Portal User Guide</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#getting-started"><i class="fa fa-check"></i><b>1.1</b> Getting started</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Account Management</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#registering-a-new-account"><i class="fa fa-check"></i><b>2.1</b> Registering a new account</a></li>
@@ -175,12 +242,21 @@ uncomment this part if you haven't added this code anywhere else
 <ul>
 <li class="chapter" data-level="3.1" data-path="data-layers.html"><a href="data-layers.html#preparing-data"><i class="fa fa-check"></i><b>3.1</b> Preparing data</a>
 <ul>
-<li class="chapter" data-level="3.1.1" data-path="data-layers.html"><a href="data-layers.html#spatial"><i class="fa fa-check"></i><b>3.1.1</b> Spatial</a></li>
-<li class="chapter" data-level="3.1.2" data-path="data-layers.html"><a href="data-layers.html#tabular"><i class="fa fa-check"></i><b>3.1.2</b> Tabular</a></li>
-<li class="chapter" data-level="3.1.3" data-path="data-layers.html"><a href="data-layers.html#other"><i class="fa fa-check"></i><b>3.1.3</b> Other</a></li>
+<li class="chapter" data-level="3.1.1" data-path="data-layers.html"><a href="data-layers.html#general"><i class="fa fa-check"></i><b>3.1.1</b> General</a></li>
+<li class="chapter" data-level="3.1.2" data-path="data-layers.html"><a href="data-layers.html#projection"><i class="fa fa-check"></i><b>3.1.2</b> Projection</a></li>
+<li class="chapter" data-level="3.1.3" data-path="data-layers.html"><a href="data-layers.html#vector"><i class="fa fa-check"></i><b>3.1.3</b> Vector</a></li>
+<li class="chapter" data-level="3.1.4" data-path="data-layers.html"><a href="data-layers.html#raster"><i class="fa fa-check"></i><b>3.1.4</b> Raster</a></li>
+<li class="chapter" data-level="3.1.5" data-path="data-layers.html"><a href="data-layers.html#other"><i class="fa fa-check"></i><b>3.1.5</b> Other</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="data-layers.html"><a href="data-layers.html#uploading-a-new-layer"><i class="fa fa-check"></i><b>3.2</b> Uploading a new layer</a></li>
-<li class="chapter" data-level="3.3" data-path="data-layers.html"><a href="data-layers.html#styling-layers"><i class="fa fa-check"></i><b>3.3</b> Styling layers</a></li>
+<li class="chapter" data-level="3.2" data-path="data-layers.html"><a href="data-layers.html#uploading-a-new-layer"><i class="fa fa-check"></i><b>3.2</b> Uploading a new layer</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data-layers.html"><a href="data-layers.html#adding-remote-services"><i class="fa fa-check"></i><b>3.2.1</b> Adding remote services</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="data-layers.html"><a href="data-layers.html#managing-layers"><i class="fa fa-check"></i><b>3.3</b> Managing layers</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="data-layers.html"><a href="data-layers.html#remove-layer"><i class="fa fa-check"></i><b>3.3.1</b> Remove layer</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-layers.html"><a href="data-layers.html#styling-layer"><i class="fa fa-check"></i><b>3.3.2</b> Styling layer</a></li>
+</ul></li>
 <li class="chapter" data-level="3.4" data-path="data-layers.html"><a href="data-layers.html#publishing-layers"><i class="fa fa-check"></i><b>3.4</b> Publishing layers</a>
 <ul>
 <li class="chapter" data-level="3.4.1" data-path="data-layers.html"><a href="data-layers.html#publication-work-flow"><i class="fa fa-check"></i><b>3.4.1</b> Publication Work Flow</a></li>
@@ -191,21 +267,28 @@ uncomment this part if you haven't added this code anywhere else
 <li class="chapter" data-level="4.1" data-path="maps.html"><a href="maps.html#creating-maps"><i class="fa fa-check"></i><b>4.1</b> Creating maps</a></li>
 <li class="chapter" data-level="4.2" data-path="maps.html"><a href="maps.html#embedding-maps"><i class="fa fa-check"></i><b>4.2</b> Embedding maps</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="metadata.html"><a href="metadata.html"><i class="fa fa-check"></i><b>5</b> Metadata</a></li>
-<li class="chapter" data-level="6" data-path="group-managers.html"><a href="group-managers.html"><i class="fa fa-check"></i><b>6</b> Group Managers</a>
+<li class="chapter" data-level="5" data-path="metadata.html"><a href="metadata.html"><i class="fa fa-check"></i><b>5</b> Metadata</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="group-managers.html"><a href="group-managers.html#activating-a-new-account"><i class="fa fa-check"></i><b>6.1</b> Activating a new account</a></li>
+<li class="chapter" data-level="5.1" data-path="metadata.html"><a href="metadata.html#wizard"><i class="fa fa-check"></i><b>5.1</b> Wizard</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="metadata.html"><a href="metadata.html#page-1-basic-metadata"><i class="fa fa-check"></i><b>5.1.1</b> Page 1: Basic Metadata</a></li>
+<li class="chapter" data-level="5.1.2" data-path="metadata.html"><a href="metadata.html#page-2-location-and-licenses"><i class="fa fa-check"></i><b>5.1.2</b> Page 2: Location and Licenses</a></li>
+<li class="chapter" data-level="5.1.3" data-path="metadata.html"><a href="metadata.html#page-3-optional-metadata"><i class="fa fa-check"></i><b>5.1.3</b> Page 3: Optional Metadata</a></li>
+<li class="chapter" data-level="5.1.4" data-path="metadata.html"><a href="metadata.html#page-4-dataset-attributes"><i class="fa fa-check"></i><b>5.1.4</b> Page 4: Dataset Attributes</a></li>
 </ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="group-managers.html"><a href="group-managers.html"><i class="fa fa-check"></i><b>6</b> Group Managers</a></li>
 <li class="chapter" data-level="7" data-path="getting-help.html"><a href="getting-help.html"><i class="fa fa-check"></i><b>7</b> Getting Help</a>
 <ul>
 <li class="chapter" data-level="7.1" data-path="getting-help.html"><a href="getting-help.html#search"><i class="fa fa-check"></i><b>7.1</b> Search</a></li>
 <li class="chapter" data-level="7.2" data-path="getting-help.html"><a href="getting-help.html#slack"><i class="fa fa-check"></i><b>7.2</b> Slack</a></li>
-<li class="chapter" data-level="7.3" data-path="getting-help.html"><a href="getting-help.html#request-support"><i class="fa fa-check"></i><b>7.3</b> Request Support</a>
+<li class="chapter" data-level="7.3" data-path="getting-help.html"><a href="getting-help.html#data-office-hours"><i class="fa fa-check"></i><b>7.3</b> Data Office Hours</a></li>
+<li class="chapter" data-level="7.4" data-path="getting-help.html"><a href="getting-help.html#request-support"><i class="fa fa-check"></i><b>7.4</b> Request Support</a>
 <ul>
-<li class="chapter" data-level="7.3.1" data-path="getting-help.html"><a href="getting-help.html#example"><i class="fa fa-check"></i><b>7.3.1</b> Example</a></li>
+<li class="chapter" data-level="7.4.1" data-path="getting-help.html"><a href="getting-help.html#example"><i class="fa fa-check"></i><b>7.4.1</b> Example</a></li>
 </ul></li>
-<li class="chapter" data-level="7.4" data-path="getting-help.html"><a href="getting-help.html#external-resources"><i class="fa fa-check"></i><b>7.4</b> External Resources</a></li>
 </ul></li>
+<li class="chapter" data-level="8" data-path="example-data.html"><a href="example-data.html"><i class="fa fa-check"></i><b>8</b> Example Data</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 </ul>
 
@@ -228,56 +311,207 @@ uncomment this part if you haven't added this code anywhere else
 <h1><span class="header-section-number">Chapter 3</span> Data Layers</h1>
 <div id="preparing-data" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Preparing data</h2>
-<p>filenames</p>
-<p>size limits</p>
-<div id="spatial" class="section level3" number="3.1.1">
-<h3><span class="header-section-number">3.1.1</span> Spatial</h3>
-<div id="projection" class="section level4" number="3.1.1.1">
-<h4><span class="header-section-number">3.1.1.1</span> Projection</h4>
-<p>Esri link</p>
-<div id="reprojecting" class="section level5" number="3.1.1.1.1">
-<h5><span class="header-section-number">3.1.1.1.1</span> Reprojecting</h5>
+<p>Preparing your data for submission is critical. It’s much easier to get your data into a clear, workable, standardized format on your local machine, rather than attempting to modify it after submission to the Data Portal.</p>
+<p>Emphasis is placed on geospatial data, but many other types of data can be submitted to the Data Portal as well. See <a href="data-layers.html#other">Other Data Types</a>.</p>
+<p>Data preparation (and management) are extensive topics. We’ll lay out the basics and some quick tips here, and cover these aspects in greater depth in the future.</p>
+<div id="general" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> General</h3>
+<div id="filenaming" class="section level4" number="3.1.1.1">
+<h4><span class="header-section-number">3.1.1.1</span> Filenaming</h4>
+<p>Using clear, descriptive, and compatible filenames for your data is an important aspect of data management. Inappropriate filenames are not only confusing, they may also cause issues within the Data Portal that render the layer unusable. Follow the best practices below for best results.</p>
+<p>Descriptive: A succinct, descriptive filename is important for identifying and managing datasets.</p>
+<p>Length: Excessively long filenames can trigger unexpected behavior. Try to limit your filenames to about 20 characters.</p>
+<p>Characters: A filename with non-standard characters can trigger errors. Stick with these guidelines.</p>
 <ul>
-<li>Esri</li>
-<li>Qgis</li>
-<li>Gdal</li>
-<li>r</li>
-<li>python</li>
+<li>Use basic Latin alphanumerics (a-z, A-Z, 0-9)</li>
+<li>Do not include characters with diacritics/accent marks (<code>ñ</code>)
+<ul>
+<li>The data itself can contain non-basic Latin characters, but it’s still important to be aware of character encoding. <a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/" target="_blank">This blog</a> will tell you more than you wanted to (but should) know.</li>
+</ul></li>
+<li>Use dashes (<code>-</code>) or underscores (<code>_</code>) to separate terms</li>
+<li>Only use periods (<code>.</code>) before the file extension</li>
+<li>Avoid including spaces/blank spaces ()</li>
 </ul>
+<p>Unique: If a filename matches that of an existing layer, the Data Portal automatically appends random characters to the filename. Include a version number in your filename if you’d like to avoid this.</p>
+</div>
+<div id="size-limitations" class="section level4" number="3.1.1.2">
+<h4><span class="header-section-number">3.1.1.2</span> Size limitations</h4>
+<p>Data files larger than 1gb will fail to upload to the Data Portal, and files approaching that limit may experience issues.</p>
+<!-- Raster datatype can help. Subsetting. Aggregation -->
+<p>Large, national-scale datasets (eg. landcover) may be available on public map servers hosted by external organization. Using these existing resources is a good way to bring large datasets into the Data Portal to combine with internal layers, without worrying about size limitations. See <a href="data-layers.html#adding-remote-services">Adding Remote Services</a>.</p>
+<p>If you’ve created a large research dataset that needs to be added to the Data Portal, coordinate with the <a href="getting-help.html#getting-help">Data Manager</a>.</p>
 </div>
 </div>
-<div id="vector" class="section level4" number="3.1.1.2">
-<h4><span class="header-section-number">3.1.1.2</span> Vector</h4>
+<div id="projection" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Projection</h3>
+<p>For an introduction and overview of spatial coordinate systems and projects, see this <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm" target="_blank">ESRI article</a></p>
+<p><a href="https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset" target="_blank">EPSG Codes</a> are a succinct, standardized method for referencing common geospatial projections. Typically, the Data Portal will accept spatial data in any projection with a properly declared EPSG code. In practice, projection systems can be complex. Initially you may want to stick with one of the most common projections until you are more familiar with the Data Portal.</p>
+<ul>
+<li>WGS84 (<a href="https://epsg.io/4326" target="_blank">EPSG:4326</a>). Basic longitude and latitude coordinates. Units are in decimal degrees.</li>
+<li>Web Mercator (<a href="https://epsg.io/4326" target="_blank">EPSG:4326</a>). Commonly used to render data for web maps. Units are in meters.
+<!-- -statcan -->
+<!-- geographic conformal equidistant equal area --></li>
+</ul>
+<blockquote>
+<p><em>We’ll cover projection fundamentals and best practices for transforming projections in a future workshop.</em></p>
+</blockquote>
+<!-- -   distort matrix/indicator -->
+<!-- #### Reprojecting -->
+<!-- ##### Resampling -->
+<!-- - Nearest neighbor -->
+<!-- - Majority -->
+<!-- - Bilinear -->
+<!-- - Cubic -->
+<!-- ##### Software -->
+<!-- -   Esri -->
+<!-- -   Qgis -->
+<!-- -   Gdal -->
+<!-- -   r -->
+<!-- -   python -->
 </div>
-<div id="raster" class="section level4" number="3.1.1.3">
-<h4><span class="header-section-number">3.1.1.3</span> Raster</h4>
+<div id="vector" class="section level3" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Vector</h3>
+<p>The most common format for storing vector data is the <a href="https://en.wikipedia.org/wiki/Shapefile" target="_blank">Shapefile</a>.</p>
+<!-- geojson -->
+<!-- csv -->
 </div>
+<div id="raster" class="section level3" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Raster</h3>
+<p>The recommended format for storing and submitting raster data is <a href="https://en.wikipedia.org/wiki/GeoTIFF" target="_blank">GeoTIFF</a>.</p>
+<!-- Tip-get your data how you want it locally first. Datatype, min max na. -->
 </div>
-<div id="tabular" class="section level3" number="3.1.2">
-<h3><span class="header-section-number">3.1.2</span> Tabular</h3>
+<div id="other" class="section level3" number="3.1.5">
+<h3><span class="header-section-number">3.1.5</span> Other</h3>
+<p>Non-geospatial datasets can be submitted to the Data Portal as Documents. File formats for Document objects include text files (.doc, .docx, .txt, .odt), spreadsheets (.xls, .xlsx, .ods), presentations (.ppt, .pptx, .odp), images (.gif, .jpg, .png, .tif, .tiff), PDF, zip files (.rar, .zip, .gz), SLD, XML or QML files.</p>
+<p>Descriptive metadata is critical for the discovery and reusability of Document datasets, as the user will not be able to view the contents of a Document before downloading the file.</p>
+<p>See <a href="https://docs.geonode.org/en/3.2.x/usage/managing_documents/uploading_documents.html#uploading-documents" target="_blank">Documents</a> in the GeoNode documentation for more information about uploading, managing, and creating metadata for Documents.</p>
+<div id="tabular" class="section level4" number="3.1.5.1">
+<h4><span class="header-section-number">3.1.5.1</span> Tabular</h4>
+<blockquote>
+<p><em>We’ll cover best practices for formatting and managing tabular data in a future workshop.</em></p>
+</blockquote>
+<!-- Tidy xls, but csv better col types -->
 </div>
-<div id="other" class="section level3" number="3.1.3">
-<h3><span class="header-section-number">3.1.3</span> Other</h3>
 </div>
 </div>
 <div id="uploading-a-new-layer" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Uploading a new layer</h2>
-<p>Note visibility</p>
-<p>Permissions - should be auto</p>
+<div class="two-col">
+<div class="figure"><span id="fig:unnamed-chunk-13"></span>
+<img src="images/paste-9A422139.png" alt="Upload layer from site menu" width="218" />
+<p class="caption">
+Figure 3.1: Upload layer from site menu
+</p>
 </div>
-<div id="styling-layers" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Styling layers</h2>
+<p>Navigate to <code>Data &gt; Upload Layer</code> from the top menu.</p>
+</div>
+<div class="two-col">
+<div class="figure"><span id="fig:unnamed-chunk-14"></span>
+<img src="images/paste-818A6058.png" alt="Select files to upload" width="484" />
+<p class="caption">
+Figure 3.2: Select files to upload
+</p>
+</div>
+<p>Click <code>Choose files</code> and navigate to the dataset on your local computer.</p>
+<p>Select the data files to be uploaded.</p>
+<p>If a dataset is composed of multiple files, be sure to select all associated files. For example, ESRI shapefiles, a common format for vector data, actually consist of four+ separate files)</p>
+</div>
+<div class="two-col">
+<div class="figure"><span id="fig:unnamed-chunk-15"></span>
+<img src="images/paste-9D2B5B7D.png" alt="Verify selection and upload" width="396" />
+<p class="caption">
+Figure 3.3: Verify selection and upload
+</p>
+</div>
+<p>Confirm the result looks as intended.</p>
+<p>Click the <code>Upload files</code> button.</p>
+</div>
+<div class="two-col">
+<div class="figure"><span id="fig:unnamed-chunk-16"></span>
+<img src="images/paste-807811C9.png" alt="Upload in progress" width="384" />
+<p class="caption">
+Figure 3.4: Upload in progress
+</p>
+</div>
+<p>Monitor progress within <code>Upload status</code>.</p>
+<p>If an error occurs:</p>
+<ul>
+<li>Verify that you are able to display the data on your local computer</li>
+<li>Recheck your file selection</li>
+<li>Retry uploading the files</li>
+<li>Get <a href="getting-help.html#getting-help">help</a></li>
+</ul>
+</div>
+<div class="two-col">
+<div class="figure"><span id="fig:unnamed-chunk-17"></span>
+<img src="images/paste-09549BA7.png" alt="Upload completed successfully" width="388" />
+<p class="caption">
+Figure 3.5: Upload completed successfully
+</p>
+</div>
+<div class="figure"><span id="fig:unnamed-chunk-18"></span>
+<img src="images/paste-113BA940.png" alt="Layer info" width="400" />
+<p class="caption">
+Figure 3.6: Layer info
+</p>
+</div>
+<p>If the upload completes successfully:</p>
+<ul>
+<li>Initially, the layer will only be visible to you. You’ll need to assign the layer to a Group before it can be viewed by any other registered users, and complete the Data Publication process before the data is publically available. See <a href="data-layers.html#publishing-layers">Publishing Layers</a>.</li>
+<li>Proceed to <a href="data-layers.html#managing-layers">Managing Layers</a> to customize the description and symbology of your layer.</li>
+</ul>
+</div>
+<div id="adding-remote-services" class="section level3" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Adding remote services</h3>
+<p>The Data Portal can integrate layers from external map servers, such as Geoserver Web Map Services (WMS) and ArcGIS REST MapServers. See <a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/using_remote_services.html" target="_blank">Using Remote Services</a> in the GeoNode documentation for details.</p>
+</div>
+</div>
+<div id="managing-layers" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Managing layers</h2>
+<p><a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html" target="_blank">Layer Info</a></p>
+<p><a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html#layer-tools" target="_blank">Layer Tools</a></p>
+<p><img src="images/paste-27523B05.png" /></p>
+<p><img src="images/paste-8B2E52DA.png" /></p>
+<div id="remove-layer" class="section level3" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Remove layer</h3>
+<p>A layer can be removed through the Editing Tools. Navigate to a layer page, click <code>Editing Tools</code> to open menu, click <code>Remove</code>, and confirm. This action can only be performed by the <code>Owner</code> of the layer or a Data Portal Administrator.</p>
+<div class="three-col">
+<div class="figure"><span id="fig:unnamed-chunk-19"></span>
+<img src="images/paste-8B2E52DA.png" alt="Layer editing tools" width="437" />
+<p class="caption">
+Figure 3.7: Layer editing tools
+</p>
+</div>
+<div class="figure"><span id="fig:unnamed-chunk-20"></span>
+<img src="images/paste-1AA8475A.png" alt="Remove layer" width="311" />
+<p class="caption">
+Figure 3.8: Remove layer
+</p>
+</div>
+</div>
+</div>
+<div id="styling-layer" class="section level3" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Styling layer</h3>
+<div class="two-col">
+<div class="figure"><span id="fig:unnamed-chunk-21"></span>
+<img src="images/paste-24E21851.png" alt="Viewing a layer" width="395" />
+<p class="caption">
+Figure 3.9: Viewing a layer
+</p>
+</div>
+<p>Layer styles control the appearance and visualization of data layers. A layer can have multiple styles associated with it. The Data Portal includes an interactive tool for creating geospatial styles. See <a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_styling.html" target="_blank">Layer Styling</a> in the GeoNode documentation for detailed instructions.</p>
+<blockquote>
+<p><em>We’ll cover this in greater depth in a future workshop.</em></p>
+</blockquote>
+<!-- Uploading SLD -->
+</div>
+</div>
 </div>
 <div id="publishing-layers" class="section level2" number="3.4">
 <h2><span class="header-section-number">3.4</span> Publishing layers</h2>
+<p><a href="metadata.html#metadata">Metadata</a></p>
 <div id="publication-work-flow" class="section level3" number="3.4.1">
 <h3><span class="header-section-number">3.4.1</span> Publication Work Flow</h3>
-<div style="background: white;">
-<div class="figure">
-<img src="images/ResNet%20DP%20Workflow%20Portrait%20Headless%20trans.svg" title="Data publication workflow" alt="" />
-<p class="caption">Data publication workflow</p>
-</div>
-</div>
 <div class="figure">
 <img src="images/ResNet%20DP%20Workflow.svg" title="Data publication workflow" alt="" />
 <p class="caption">Data publication workflow</p>

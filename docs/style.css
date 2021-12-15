@@ -62,3 +62,32 @@ pre code {
 .book .book-body .page-wrapper .page-inner section.normal h2 {
   clear:right;
 }
+
+.level4 .header-section-number {
+  display:none;
+}
+
+.figure .caption {
+  font-size:small;
+}
+
+.three-col {
+  clear:right;
+  display: flex;
+}
+
+.three-col .figure{
+  float: ;
+  max-width:40%;
+  clear:;
+  padding-right:.5em;
+  display:table;
+}
+
+.three-col .figure .caption {
+  display: table-caption;
+  caption-side: top;
+  margin-top:.5em;
+  margin-bottom:0em !important;
+  text-align:left;
+}
