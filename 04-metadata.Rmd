@@ -6,11 +6,19 @@ Metadata is an evolving process. Partial metadata is better than no metadata.
 
 The Data Portal provides several methods for managing metadata. This guide will focus on the Metadata Wizard. See the GeoNode documentation for the [Advanced Editing](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_metadata.html#metadata-advanced-editing){target="_blank"} and [Uploading](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_metadata.html#uploading-metadata){target="_blank"} of metadata.
 
-![](images/paste-A07DE6E2.png)
-
 ## Wizard
+::: two-col
+```{r, echo=F, fig.cap=c("Accessing the metadata wizard")}
+
+knitr::include_graphics("images/paste-A07DE6E2.png")
+
+```
 
 The Metadata Wizard guides the user through a series of forms intended to reflect the core required fields of the ISO Standard, and therefore generate fully compliant records for the layer. In practice, the fields and descriptions can be confusing. Descriptions of each field are provided here for clarification.
+:::
+
+> *Unfortunately, these definitions are currently incomplete. This page will be updated in the very near future.*
+
 
 ### Page 1: Basic Metadata
 

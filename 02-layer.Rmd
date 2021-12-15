@@ -181,6 +181,7 @@ The Data Portal can integrate layers from external map servers, such as Geoserve
 
 ## Managing layers
 
+The Layer Info page displays 
 [Layer Info](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html){target="_blank"}
 
 [Layer Tools](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html#layer-tools
@@ -231,13 +232,15 @@ Layer styles control the appearance and visualization of data layers. A layer ca
 
 ## Publishing layers
 
+
+
 [Metadata](#metadata)
 
-### Publication Work Flow
+### Publication Workflow
 
-```{r, echo=F, fig.cap=c("Viewing a layer")}
+```{r, echo=F, fig.cap=c("Data publication workflow")}
 
-knitr::include_graphics("images/ResNet%20DP%20Workflow.svg")
+knitr::include_graphics("images/ResNet DP Workflow.svg")
 
 ```
 
