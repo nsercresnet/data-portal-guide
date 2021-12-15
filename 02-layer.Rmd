@@ -21,10 +21,15 @@ Length: Excessively long filenames can trigger unexpected behavior. Try to limit
 Characters: A filename with non-standard characters can trigger errors. Stick with these guidelines.
 
 -   Use basic Latin alphanumerics (a-z, A-Z, 0-9)
+
 -   Do not include characters with diacritics/accent marks (`ñ`)
+
     -   The data itself can contain non-basic Latin characters, but it's still important to be aware of character encoding. [This blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/){target="_blank"} will tell you more than you wanted to (but should) know.
+
 -   Use dashes (`-`) or underscores (`_`) to separate terms
+
 -   Only use periods (`.`) before the file extension
+
 -   Avoid including spaces/blank spaces ()
 
 Unique: If a filename matches that of an existing layer, the Data Portal automatically appends random characters to the filename. Include a version number in your filename if you'd like to avoid this.
@@ -45,10 +50,8 @@ For an introduction and overview of spatial coordinate systems and projects, see
 
 [EPSG Codes](https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset){target="_blank"} are a succinct, standardized method for referencing common geospatial projections. Typically, the Data Portal will accept spatial data in any projection with a properly declared EPSG code. In practice, projection systems can be complex. Initially you may want to stick with one of the most common projections until you are more familiar with the Data Portal.
 
- -  WGS84 ([EPSG:4326](https://epsg.io/4326){target="_blank"}). Basic longitude and latitude coordinates. Units are in decimal degrees.
- -  Web Mercator ([EPSG:4326](https://epsg.io/4326){target="_blank"}). Commonly used to render data for web maps. Units are in meters.
-<!-- -statcan -->
-<!-- geographic conformal equidistant equal area -->
+-   WGS84 ([EPSG:4326](https://epsg.io/4326){target="_blank"}). Basic longitude and latitude coordinates. Units are in decimal degrees.
+-   Web Mercator ([EPSG:4326](https://epsg.io/4326){target="_blank"}). Commonly used to render data for web maps. Units are in meters. <!-- -statcan --> <!-- geographic conformal equidistant equal area -->
 
 > *We'll cover projection fundamentals and best practices for transforming projections in a future workshop.*
 
@@ -59,23 +62,31 @@ For an introduction and overview of spatial coordinate systems and projects, see
 <!-- ##### Resampling -->
 
 <!-- - Nearest neighbor -->
+
 <!-- - Majority -->
+
 <!-- - Bilinear -->
+
 <!-- - Cubic -->
 
 <!-- ##### Software -->
 
 <!-- -   Esri -->
+
 <!-- -   Qgis -->
+
 <!-- -   Gdal -->
+
 <!-- -   r -->
+
 <!-- -   python -->
 
 ### Vector
 
-The most common format for storing vector data is the  [Shapefile](https://en.wikipedia.org/wiki/Shapefile){target="_blank"}.
+The most common format for storing vector data is the [Shapefile](https://en.wikipedia.org/wiki/Shapefile){target="_blank"}.
 
 <!-- geojson -->
+
 <!-- csv -->
 
 ### Raster
@@ -84,7 +95,7 @@ The recommended format for storing and submitting raster data is [GeoTIFF](https
 
 <!-- Tip-get your data how you want it locally first. Datatype, min max na. -->
 
-### Other
+### Other {#other}
 
 Non-geospatial datasets can be submitted to the Data Portal as Documents. File formats for Document objects include text files (.doc, .docx, .txt, .odt), spreadsheets (.xls, .xlsx, .ods), presentations (.ppt, .pptx, .odp), images (.gif, .jpg, .png, .tif, .tiff), PDF, zip files (.rar, .zip, .gz), SLD, XML or QML files.
 
@@ -96,9 +107,7 @@ See [Documents](https://docs.geonode.org/en/3.2.x/usage/managing_documents/uploa
 
 > *We'll cover best practices for formatting and managing tabular data in a future workshop.*
 
-
 <!-- Tidy xls, but csv better col types -->
-
 
 ## Uploading a new layer
 
@@ -174,20 +183,13 @@ If the upload completes successfully:
 -   Proceed to [Managing Layers](#managing-layers) to customize the description and symbology of your layer.
 :::
 
-
 ### Adding remote services {#adding-remote-services}
 
 The Data Portal can integrate layers from external map servers, such as Geoserver Web Map Services (WMS) and ArcGIS REST MapServers. See [Using Remote Services](https://docs.geonode.org/en/3.2.x/usage/managing_layers/using_remote_services.html){target="_blank"} in the GeoNode documentation for details.
 
-## Managing layers
+## Managing layers {#managing-layers}
 
-The Layer Info page displays 
-[Layer Info](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html){target="_blank"}
-
-[Layer Tools](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html#layer-tools
-){target="_blank"}
-
-
+See the GeoNode documentation for [Layer Info](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html){target="_blank"} and [Layer Tools](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html#layer-tools){target="_blank"}
 
 ![](images/paste-27523B05.png)
 
@@ -225,16 +227,21 @@ Layer styles control the appearance and visualization of data layers. A layer ca
 > *We'll cover this in greater depth in a future workshop.*
 
 <!-- Uploading SLD -->
-
 :::
 
+## Publishing layers {#publishing-layers}
 
+1.  Upload a layer -> Layer pending approval
 
-## Publishing layers
+2.  Author [Metadata](#metadata)
 
+3.  Assign to group -> Layer visible to group
 
+4.  Request Group Manager review
 
-[Metadata](#metadata)
+5.  After Manager approval -> Visible to public
+
+> *This protocol is still in development. Please bear with us. Full details coming soon.*
 
 ### Publication Workflow
 
@@ -243,4 +250,3 @@ Layer styles control the appearance and visualization of data layers. A layer ca
 knitr::include_graphics("images/ResNet DP Workflow.svg")
 
 ```
-

@@ -320,14 +320,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Length: Excessively long filenames can trigger unexpected behavior. Try to limit your filenames to about 20 characters.</p>
 <p>Characters: A filename with non-standard characters can trigger errors. Stick with these guidelines.</p>
 <ul>
-<li>Use basic Latin alphanumerics (a-z, A-Z, 0-9)</li>
-<li>Do not include characters with diacritics/accent marks (<code>ñ</code>)
+<li><p>Use basic Latin alphanumerics (a-z, A-Z, 0-9)</p></li>
+<li><p>Do not include characters with diacritics/accent marks (<code>ñ</code>)</p>
 <ul>
 <li>The data itself can contain non-basic Latin characters, but it’s still important to be aware of character encoding. <a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/" target="_blank">This blog</a> will tell you more than you wanted to (but should) know.</li>
 </ul></li>
-<li>Use dashes (<code>-</code>) or underscores (<code>_</code>) to separate terms</li>
-<li>Only use periods (<code>.</code>) before the file extension</li>
-<li>Avoid including spaces/blank spaces ()</li>
+<li><p>Use dashes (<code>-</code>) or underscores (<code>_</code>) to separate terms</p></li>
+<li><p>Only use periods (<code>.</code>) before the file extension</p></li>
+<li><p>Avoid including spaces/blank spaces ()</p></li>
 </ul>
 <p>Unique: If a filename matches that of an existing layer, the Data Portal automatically appends random characters to the filename. Include a version number in your filename if you’d like to avoid this.</p>
 </div>
@@ -345,9 +345,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><a href="https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset" target="_blank">EPSG Codes</a> are a succinct, standardized method for referencing common geospatial projections. Typically, the Data Portal will accept spatial data in any projection with a properly declared EPSG code. In practice, projection systems can be complex. Initially you may want to stick with one of the most common projections until you are more familiar with the Data Portal.</p>
 <ul>
 <li>WGS84 (<a href="https://epsg.io/4326" target="_blank">EPSG:4326</a>). Basic longitude and latitude coordinates. Units are in decimal degrees.</li>
-<li>Web Mercator (<a href="https://epsg.io/4326" target="_blank">EPSG:4326</a>). Commonly used to render data for web maps. Units are in meters.
-<!-- -statcan -->
-<!-- geographic conformal equidistant equal area --></li>
+<li>Web Mercator (<a href="https://epsg.io/4326" target="_blank">EPSG:4326</a>). Commonly used to render data for web maps. Units are in meters. <!-- -statcan --> <!-- geographic conformal equidistant equal area --></li>
 </ul>
 <blockquote>
 <p><em>We’ll cover projection fundamentals and best practices for transforming projections in a future workshop.</em></p>
@@ -465,9 +463,7 @@ Figure 3.6: Layer info
 </div>
 <div id="managing-layers" class="section level2" number="3.3">
 <h2><span class="header-section-number">3.3</span> Managing layers</h2>
-<p>The Layer Info page displays
-<a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html" target="_blank">Layer Info</a></p>
-<p><a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html#layer-tools" target="_blank">Layer Tools</a></p>
+<p>See the GeoNode documentation for <a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html" target="_blank">Layer Info</a> and <a href="https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_info.html#layer-tools" target="_blank">Layer Tools</a></p>
 <p><img src="images/paste-27523B05.png" /></p>
 <p><img src="images/paste-8B2E52DA.png" /></p>
 <div id="remove-layer" class="section level3" number="3.3.1">
@@ -507,7 +503,16 @@ Figure 3.9: Viewing a layer
 </div>
 <div id="publishing-layers" class="section level2" number="3.4">
 <h2><span class="header-section-number">3.4</span> Publishing layers</h2>
-<p><a href="metadata.html#metadata">Metadata</a></p>
+<ol style="list-style-type: decimal">
+<li><p>Upload a layer -&gt; Layer pending approval</p></li>
+<li><p>Author <a href="metadata.html#metadata">Metadata</a></p></li>
+<li><p>Assign to group -&gt; Layer visible to group</p></li>
+<li><p>Request Group Manager review</p></li>
+<li><p>After Manager approval -&gt; Visible to public</p></li>
+</ol>
+<blockquote>
+<p><em>This protocol is still in development. Please bear with us. Full details coming soon.</em></p>
+</blockquote>
 <div id="publication-workflow" class="section level3" number="3.4.1">
 <h3><span class="header-section-number">3.4.1</span> Publication Workflow</h3>
 <div class="figure"><span id="fig:unnamed-chunk-22"></span>

@@ -1,8 +1,6 @@
 # Metadata
 
-Metadata is a critical component. A dataset must be associated with valid and comprehensive metadata.
-
-Metadata is an evolving process. Partial metadata is better than no metadata.
+Metadata is a critical component. A dataset must be associated with valid and comprehensive metadata. Metadata is also a complex and evolving process. Partial metadata is always better than no metadata. Do your best to provide relevant information and stay tuned for further refinement in our metadata workflows.
 
 The Data Portal provides several methods for managing metadata. This guide will focus on the Metadata Wizard. See the GeoNode documentation for the [Advanced Editing](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_metadata.html#metadata-advanced-editing){target="_blank"} and [Uploading](https://docs.geonode.org/en/3.2.x/usage/managing_layers/layer_metadata.html#uploading-metadata){target="_blank"} of metadata.
 
