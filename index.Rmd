@@ -26,14 +26,13 @@ The ResNet Data Portal was developed using [GeoNode](https://geonode.org/){targe
 
 <!-- ## Navigation -->
 
-<!-- ## Getting started -->
+## Getting started
 
-<!-- 1.  Register a new account. Activation required. -->
-
-<!-- 2.  Upload layer -->
-
+1.  [Register](#registering-a-new-account) a new account
+2.  Setup your user [profile](#managing-your-profile)
+3.  [Join a group](#joining-a-group) for your Landscape or Theme
+4.  Download the [example data](#example-data)
+5.  [Upload](#uploading-a-new-layer) your first layers
 <!-- 3.  Combine -->
-
 <!-- 4.  Manage -->
-
 <!-- 5.  Publish -->

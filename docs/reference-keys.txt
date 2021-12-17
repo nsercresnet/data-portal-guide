@@ -22,6 +22,7 @@ fig:unnamed-chunk-21
 fig:unnamed-chunk-22
 fig:unnamed-chunk-23
 overview
+getting-started
 intro
 registering-a-new-account
 managing-your-profile
