@@ -14,11 +14,11 @@ Data preparation (and management) are extensive topics. We'll lay out the basics
 
 Using clear, descriptive, and compatible filenames for your data is an important aspect of data management. Inappropriate filenames are not only confusing, they may also cause issues within the Data Portal that render the layer unusable. Follow the best practices below for best results.
 
-Descriptive: A succinct, descriptive filename is important for identifying and managing datasets.
+**Descriptive**: A succinct, descriptive filename is important for identifying and managing datasets.
 
-Length: Excessively long filenames can trigger unexpected behavior. Try to limit your filenames to about 20 characters.
+**Length**: Excessively long filenames can trigger unexpected behavior. Try to limit your filenames to about 20 characters.
 
-Characters: A filename with non-standard characters can trigger errors. Stick with these guidelines.
+**Characters**: A filename with non-standard characters can trigger errors. Stick with these guidelines.
 
 -   Use basic Latin alphanumerics (a-z, A-Z, 0-9)
 
@@ -32,7 +32,7 @@ Characters: A filename with non-standard characters can trigger errors. Stick wi
 
 -   Avoid including spaces/blank spaces ()
 
-Unique: If a filename matches that of an existing layer, the Data Portal automatically appends random characters to the filename. Include a version number in your filename if you'd like to avoid this.
+**Unique**: If a filename matches that of an existing layer, the Data Portal automatically appends random characters to the filename. Include a version number in your filename if you'd like to avoid this.
 
 #### Size limitations
 
@@ -181,6 +181,11 @@ If the upload completes successfully:
 
 -   Initially, the layer will only be visible to you. You'll need to assign the layer to a Group before it can be viewed by any other registered users, and complete the Data Publication process before the data is publically available. See [Publishing Layers](#publishing-layers).
 -   Proceed to [Managing Layers](#managing-layers) to customize the description and symbology of your layer.
+:::
+
+::: {.infobox .info}
+**As of 2022-02-23:** There is an issue with the layer upload user interface where the progress indicator appears to halt at 80%. You should still be able to view your new layer by navigating to `Data > Layers`. We are working to resolve this issue. \
+![](images/paste-9E5EC659.png)
 :::
 
 ### Adding remote services {#adding-remote-services}

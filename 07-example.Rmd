@@ -13,7 +13,7 @@ A set of example data is provided for testing and exploring the Data Portal. The
 -   `user_test_poly.shp` - Example polygon shapefile
 -   `user_test_raster.tif` - Example raster geotiff
 
-All files are projected in WGS84 (EPSG:4326). Layers created using this example data may be periodically deleted.
+All files are projected in WGS84 (EPSG:4326). **Layers created using this example data will be deleted periodically.**
 
 1.  Download the [Example Data](data/example_data.zip) zip file
 

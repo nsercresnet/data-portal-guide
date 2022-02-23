@@ -27,7 +27,7 @@ Fill in the form:
 :::
 
 ::: {.infobox .info}
-Email notifications are sent from `resnet.data.portal@gmail.com`. Remember to check your spam folder!
+Email notifications are sent from `resnet.data.portal@gmail.com`. **Remember to check your spam folder!**
 :::
 
 ::: two-col
@@ -51,7 +51,7 @@ After your account has been activated, you will receive an email notification.
 :::
 
 ::: {.infobox .info}
-At the time of writing, this email notification includes an invalid link. You can still navigate to <https://data.nsercresnet.ca> and login as normal.
+The email notification you receive may include an invalid link. You can always navigate to <https://data.nsercresnet.ca> and login as normal.
 :::
 
 ::: two-col

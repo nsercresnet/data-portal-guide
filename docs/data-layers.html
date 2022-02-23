@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Data Layers | ResNet Data Portal User Guide</title>
   <meta name="description" content="Instructions for accessing and using the ResNet Data Portal." />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Data Layers | ResNet Data Portal User Guide" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,8 @@
 <link rel="prev" href="intro.html"/>
 <link rel="next" href="maps.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -40,7 +41,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -319,9 +319,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="filenaming" class="section level4" number="3.1.1.1">
 <h4><span class="header-section-number">3.1.1.1</span> Filenaming</h4>
 <p>Using clear, descriptive, and compatible filenames for your data is an important aspect of data management. Inappropriate filenames are not only confusing, they may also cause issues within the Data Portal that render the layer unusable. Follow the best practices below for best results.</p>
-<p>Descriptive: A succinct, descriptive filename is important for identifying and managing datasets.</p>
-<p>Length: Excessively long filenames can trigger unexpected behavior. Try to limit your filenames to about 20 characters.</p>
-<p>Characters: A filename with non-standard characters can trigger errors. Stick with these guidelines.</p>
+<p><strong>Descriptive</strong>: A succinct, descriptive filename is important for identifying and managing datasets.</p>
+<p><strong>Length</strong>: Excessively long filenames can trigger unexpected behavior. Try to limit your filenames to about 20 characters.</p>
+<p><strong>Characters</strong>: A filename with non-standard characters can trigger errors. Stick with these guidelines.</p>
 <ul>
 <li><p>Use basic Latin alphanumerics (a-z, A-Z, 0-9)</p></li>
 <li><p>Do not include characters with diacritics/accent marks (<code>ñ</code>)</p>
@@ -332,7 +332,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>Only use periods (<code>.</code>) before the file extension</p></li>
 <li><p>Avoid including spaces/blank spaces ()</p></li>
 </ul>
-<p>Unique: If a filename matches that of an existing layer, the Data Portal automatically appends random characters to the filename. Include a version number in your filename if you’d like to avoid this.</p>
+<p><strong>Unique</strong>: If a filename matches that of an existing layer, the Data Portal automatically appends random characters to the filename. Include a version number in your filename if you’d like to avoid this.</p>
 </div>
 <div id="size-limitations" class="section level4" number="3.1.1.2">
 <h4><span class="header-section-number">3.1.1.2</span> Size limitations</h4>
@@ -395,7 +395,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="uploading-a-new-layer" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Uploading a new layer</h2>
 <div class="two-col">
-<div class="figure"><span id="fig:unnamed-chunk-13"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-13"></span>
 <img src="images/paste-9A422139.png" alt="Upload layer from site menu" width="218" />
 <p class="caption">
 Figure 3.1: Upload layer from site menu
@@ -404,7 +404,7 @@ Figure 3.1: Upload layer from site menu
 <p>Navigate to <code>Data &gt; Upload Layer</code> from the top menu.</p>
 </div>
 <div class="two-col">
-<div class="figure"><span id="fig:unnamed-chunk-14"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-14"></span>
 <img src="images/paste-818A6058.png" alt="Select files to upload" width="484" />
 <p class="caption">
 Figure 3.2: Select files to upload
@@ -415,7 +415,7 @@ Figure 3.2: Select files to upload
 <p>If a dataset is composed of multiple files, be sure to select all associated files. For example, ESRI shapefiles, a common format for vector data, actually consist of four+ separate files)</p>
 </div>
 <div class="two-col">
-<div class="figure"><span id="fig:unnamed-chunk-15"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-15"></span>
 <img src="images/paste-9D2B5B7D.png" alt="Verify selection and upload" width="396" />
 <p class="caption">
 Figure 3.3: Verify selection and upload
@@ -425,7 +425,7 @@ Figure 3.3: Verify selection and upload
 <p>Click the <code>Upload files</code> button.</p>
 </div>
 <div class="two-col">
-<div class="figure"><span id="fig:unnamed-chunk-16"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-16"></span>
 <img src="images/paste-807811C9.png" alt="Upload in progress" width="384" />
 <p class="caption">
 Figure 3.4: Upload in progress
@@ -441,13 +441,13 @@ Figure 3.4: Upload in progress
 </ul>
 </div>
 <div class="two-col">
-<div class="figure"><span id="fig:unnamed-chunk-17"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-17"></span>
 <img src="images/paste-09549BA7.png" alt="Upload completed successfully" width="388" />
 <p class="caption">
 Figure 3.5: Upload completed successfully
 </p>
 </div>
-<div class="figure"><span id="fig:unnamed-chunk-18"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-18"></span>
 <img src="images/paste-113BA940.png" alt="Layer info" width="400" />
 <p class="caption">
 Figure 3.6: Layer info
@@ -458,6 +458,10 @@ Figure 3.6: Layer info
 <li>Initially, the layer will only be visible to you. You’ll need to assign the layer to a Group before it can be viewed by any other registered users, and complete the Data Publication process before the data is publically available. See <a href="data-layers.html#publishing-layers">Publishing Layers</a>.</li>
 <li>Proceed to <a href="data-layers.html#managing-layers">Managing Layers</a> to customize the description and symbology of your layer.</li>
 </ul>
+</div>
+<div class="infobox info">
+<p><strong>As of 2022-02-23:</strong> There is an issue with the layer upload user interface where the progress indicator appears to halt at 80%. You should still be able to view your new layer by navigating to <code>Data &gt; Layers</code>. We are working to resolve this issue.<br />
+<img src="images/paste-9E5EC659.png" /></p>
 </div>
 <div id="adding-remote-services" class="section level3" number="3.2.1">
 <h3><span class="header-section-number">3.2.1</span> Adding remote services</h3>
@@ -473,13 +477,13 @@ Figure 3.6: Layer info
 <h3><span class="header-section-number">3.3.1</span> Remove layer</h3>
 <p>A layer can be removed through the Editing Tools. Navigate to a layer page, click <code>Editing Tools</code> to open menu, click <code>Remove</code>, and confirm. This action can only be performed by the <code>Owner</code> of the layer or a Data Portal Administrator.</p>
 <div class="three-col">
-<div class="figure"><span id="fig:unnamed-chunk-19"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-19"></span>
 <img src="images/paste-8B2E52DA.png" alt="Layer editing tools" width="437" />
 <p class="caption">
 Figure 3.7: Layer editing tools
 </p>
 </div>
-<div class="figure"><span id="fig:unnamed-chunk-20"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-20"></span>
 <img src="images/paste-1AA8475A.png" alt="Remove layer" width="311" />
 <p class="caption">
 Figure 3.8: Remove layer
@@ -490,7 +494,7 @@ Figure 3.8: Remove layer
 <div id="styling-layer" class="section level3" number="3.3.2">
 <h3><span class="header-section-number">3.3.2</span> Styling layer</h3>
 <div class="two-col">
-<div class="figure"><span id="fig:unnamed-chunk-21"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-21"></span>
 <img src="images/paste-24E21851.png" alt="Viewing a layer" width="395" />
 <p class="caption">
 Figure 3.9: Viewing a layer
@@ -518,7 +522,7 @@ Figure 3.9: Viewing a layer
 </blockquote>
 <div id="publication-workflow" class="section level3" number="3.4.1">
 <h3><span class="header-section-number">3.4.1</span> Publication Workflow</h3>
-<div class="figure"><span id="fig:unnamed-chunk-22"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-22"></span>
 <img src="images/ResNet%20DP%20Workflow.svg" alt="Data publication workflow"  />
 <p class="caption">
 Figure 3.10: Data publication workflow
@@ -637,7 +641,6 @@ $(document).ready(function() {
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -667,6 +670,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },

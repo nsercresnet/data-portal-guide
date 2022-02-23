@@ -33,6 +33,12 @@ The ResNet Data Portal was developed using [GeoNode](https://geonode.org/){targe
 3.  [Join a group](#joining-a-group) for your Landscape or Theme
 4.  Download the [example data](#example-data)
 5.  [Upload](#uploading-a-new-layer) your first layers
+
+::: {.infobox .info}
+**As of 2022-02-23:** There is an issue with the layer upload user interface where the progress indicator appears to halt at 80%. You should still be able to view your new layer by navigating to `Data > Layers`. We are working to resolve this issue. \
+![](images/paste-9E5EC659.png)
+:::
+
 <!-- 3.  Combine -->
 <!-- 4.  Manage -->
 <!-- 5.  Publish -->

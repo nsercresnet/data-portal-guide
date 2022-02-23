@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>ResNet Data Portal User Guide</title>
   <meta name="description" content="Instructions for accessing and using the ResNet Data Portal." />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="ResNet Data Portal User Guide" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,8 @@
 
 <link rel="next" href="intro.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -40,7 +41,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -325,11 +325,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Setup your user <a href="intro.html#managing-your-profile">profile</a></li>
 <li><a href="intro.html#joining-a-group">Join a group</a> for your Landscape or Theme</li>
 <li>Download the <a href="example-data.html#example-data">example data</a></li>
-<li><a href="data-layers.html#uploading-a-new-layer">Upload</a> your first layers
+<li><a href="data-layers.html#uploading-a-new-layer">Upload</a> your first layers</li>
+</ol>
+<div class="infobox info">
+<p><strong>As of 2022-02-23:</strong> There is an issue with the layer upload user interface where the progress indicator appears to halt at 80%. You should still be able to view your new layer by navigating to <code>Data &gt; Layers</code>. We are working to resolve this issue.<br />
+<img src="images/paste-9E5EC659.png" /></p>
+</div>
 <!-- 3.  Combine -->
 <!-- 4.  Manage -->
-<!-- 5.  Publish --></li>
-</ol>
+<!-- 5.  Publish -->
 
 </div>
 </div>
@@ -442,7 +446,6 @@ $(document).ready(function() {
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -472,6 +475,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },
