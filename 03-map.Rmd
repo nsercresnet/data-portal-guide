@@ -10,7 +10,7 @@
 
 <!-- GeoNode docs link -->
 
-Multiple layers can be combined and visualized within the Data Portal by creating maps. See [Managing Maps](https://docs.geonode.org/en/3.2.x/usage/managing_maps/index.html){target="_blank"} in the GeoNode documentation for more information.
+Multiple layers can be combined and visualized within the Data Portal by creating maps. See [Managing Maps](https://docs.geonode.org/en/4.3.0/usage/managing_maps/index.html){target="_blank"} in the GeoNode documentation for more information.
 
 ## Embedding maps
 

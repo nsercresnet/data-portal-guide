@@ -145,6 +145,70 @@ uncomment this part if you haven't added this code anywhere else
 </style>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -167,9 +231,13 @@ uncomment this part if you haven't added this code anywhere else
 <li><a href="./">ResNet Data Portal User Guide</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Quick Start</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#getting-started"><i class="fa fa-check"></i><b>1.1</b> Getting started</a></li>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#register-for-the-data-portal"><i class="fa fa-check"></i><b>1.1</b> Register for the Data Portal</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#write-project-metadata"><i class="fa fa-check"></i><b>1.2</b> Write Project Metadata</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#upload-project-metadata-to-data-portal"><i class="fa fa-check"></i><b>1.3</b> Upload Project Metadata to Data Portal</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#upload-data-layers-and-documents-to-data-portal"><i class="fa fa-check"></i><b>1.4</b> Upload Data Layers and Documents to Data Portal</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#finalize-and-publish"><i class="fa fa-check"></i><b>1.5</b> Finalize and Publish</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Account Management</a>
 <ul>
@@ -206,28 +274,17 @@ uncomment this part if you haven't added this code anywhere else
 <li class="chapter" data-level="4.1" data-path="maps.html"><a href="maps.html#creating-maps"><i class="fa fa-check"></i><b>4.1</b> Creating maps</a></li>
 <li class="chapter" data-level="4.2" data-path="maps.html"><a href="maps.html#embedding-maps"><i class="fa fa-check"></i><b>4.2</b> Embedding maps</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="metadata.html"><a href="metadata.html"><i class="fa fa-check"></i><b>5</b> Metadata</a>
+<li class="chapter" data-level="5" data-path="getting-help.html"><a href="getting-help.html"><i class="fa fa-check"></i><b>5</b> Getting Help</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="metadata.html"><a href="metadata.html#wizard"><i class="fa fa-check"></i><b>5.1</b> Wizard</a>
+<li class="chapter" data-level="5.1" data-path="getting-help.html"><a href="getting-help.html#search"><i class="fa fa-check"></i><b>5.1</b> Search</a></li>
+<li class="chapter" data-level="5.2" data-path="getting-help.html"><a href="getting-help.html#slack"><i class="fa fa-check"></i><b>5.2</b> Slack</a></li>
+<li class="chapter" data-level="5.3" data-path="getting-help.html"><a href="getting-help.html#data-office-hours"><i class="fa fa-check"></i><b>5.3</b> Data Office Hours</a></li>
+<li class="chapter" data-level="5.4" data-path="getting-help.html"><a href="getting-help.html#request-support"><i class="fa fa-check"></i><b>5.4</b> Request Support</a>
 <ul>
-<li class="chapter" data-level="5.1.1" data-path="metadata.html"><a href="metadata.html#page-1-basic-metadata"><i class="fa fa-check"></i><b>5.1.1</b> Page 1: Basic Metadata</a></li>
-<li class="chapter" data-level="5.1.2" data-path="metadata.html"><a href="metadata.html#page-2-location-and-licenses"><i class="fa fa-check"></i><b>5.1.2</b> Page 2: Location and Licenses</a></li>
-<li class="chapter" data-level="5.1.3" data-path="metadata.html"><a href="metadata.html#page-3-optional-metadata"><i class="fa fa-check"></i><b>5.1.3</b> Page 3: Optional Metadata</a></li>
-<li class="chapter" data-level="5.1.4" data-path="metadata.html"><a href="metadata.html#page-4-dataset-attributes"><i class="fa fa-check"></i><b>5.1.4</b> Page 4: Dataset Attributes</a></li>
+<li class="chapter" data-level="5.4.1" data-path="getting-help.html"><a href="getting-help.html#example"><i class="fa fa-check"></i><b>5.4.1</b> Example</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="group-managers.html"><a href="group-managers.html"><i class="fa fa-check"></i><b>6</b> Group Managers</a></li>
-<li class="chapter" data-level="7" data-path="getting-help.html"><a href="getting-help.html"><i class="fa fa-check"></i><b>7</b> Getting Help</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="getting-help.html"><a href="getting-help.html#search"><i class="fa fa-check"></i><b>7.1</b> Search</a></li>
-<li class="chapter" data-level="7.2" data-path="getting-help.html"><a href="getting-help.html#slack"><i class="fa fa-check"></i><b>7.2</b> Slack</a></li>
-<li class="chapter" data-level="7.3" data-path="getting-help.html"><a href="getting-help.html#data-office-hours"><i class="fa fa-check"></i><b>7.3</b> Data Office Hours</a></li>
-<li class="chapter" data-level="7.4" data-path="getting-help.html"><a href="getting-help.html#request-support"><i class="fa fa-check"></i><b>7.4</b> Request Support</a>
-<ul>
-<li class="chapter" data-level="7.4.1" data-path="getting-help.html"><a href="getting-help.html#example"><i class="fa fa-check"></i><b>7.4.1</b> Example</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="section.html"><a href="section.html"><i class="fa fa-check"></i><b>8</b> </a></li>
+<li class="chapter" data-level="6" data-path="example-data.html"><a href="example-data.html"><i class="fa fa-check"></i><b>6</b> Example Data</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 </ul>
 
@@ -249,30 +306,136 @@ uncomment this part if you haven't added this code anywhere else
 <div id="header">
 <h1 class="title">ResNet Data Portal User Guide</h1>
 </div>
-<div id="overview" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Overview<a href="index.html#overview" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<!-- Purpose of Data Portal -->
-<p>The ResNet Data Portal was developed using <a href="https://geonode.org/" target="_blank">GeoNode</a>, an open-source platform for sharing geospatial maps and data. This document is intended to summarize and supplement the official <a href="https://docs.geonode.org/en/4.3.0/usage/index.html" target="_blank">GeoNode Documentation</a>.</p>
-<!-- Living document -->
-<!-- report issues, submit content via github -->
-<!-- anchor links -->
-<!-- ## Navigation -->
-<div id="getting-started" class="section level2 hasAnchor" number="1.1">
-<h2><span class="header-section-number">1.1</span> Getting started<a href="index.html#getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ol style="list-style-type: decimal">
-<li><a href="intro.html#registering-a-new-account">Register</a> a new account</li>
-<li>Setup your user <a href="intro.html#managing-your-profile">profile</a></li>
-<li><a href="intro.html#joining-a-group">Join a group</a> for your Landscape or Theme</li>
-<li>Download the <a href="#example-data">example data</a></li>
-<li><a href="data-layers.html#uploading-a-new-layer">Upload</a> your first layers</li>
-</ol>
-<div class="infobox info">
-<p><strong>As of 2022-02-23:</strong> There is an issue with the layer upload user interface where the progress indicator appears to halt at 80%. You should still be able to view your new layer by navigating to <code>Data &gt; Layers</code>. We are working to resolve this issue.<br />
-<img src="images/paste-9E5EC659.png" /></p>
+<div id="quick-start" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Quick Start<a href="index.html#quick-start" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This guide will walk you through the steps of documenting your research project using the <a href="https://apps.nsercresnet.ca/app/metaquest-main" target="_blank" title="Metadata Questionnaire">Metadata Questionnaire</a>, uploading that document to the <a href="https://data.nsercresnet.ca" target="_blank" title="ResNet Data Portal">ResNet Data Portal</a>, and submitting data layers and documents to the Data Portal.</p>
+<div id="register-for-the-data-portal" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Register for the Data Portal<a href="index.html#register-for-the-data-portal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="two-col">
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="images/4.3.0/user_reg.png" alt="Register account"  />
+<p class="caption">
+Figure 1.1: Register account
+</p>
 </div>
-<!-- 3.  Combine -->
-<!-- 4.  Manage -->
-<!-- 5.  Publish -->
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="images/4.3.0/user_profile.png" alt="User profile"  />
+<p class="caption">
+Figure 1.2: User profile
+</p>
+</div>
+<ol style="list-style-type: decimal">
+<li><p>Navigate to the <a href="https://data.nsercresnet.ca" target="_blank" title="ResNet Data Portal">ResNet Data Portal</a> and click <code>Register</code> to create an account (or <code>Sign in</code> if you already have one).</p></li>
+<li><p>Enter an email where you’d like to be contacted, a username such as <code>firstname_lastname</code>, and a strong password. Save this password somewhere safe.</p></li>
+<li><p>Edit your user profile to include your name and institution.</p></li>
+<li><p>Join the group for your Landscape or Theme. Please note, in some cases the Data Manager and/or Group Manager will need to do this for you.</p></li>
+</ol>
+</div>
+</div>
+<div id="write-project-metadata" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Write Project Metadata<a href="index.html#write-project-metadata" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Navigate to the <a href="https://apps.nsercresnet.ca/app/metaquest-main" target="_blank" title="Metadata Questionnaire">Metadata Questionnaire</a>.</p></li>
+<li><p>Carefully read the instructions included on that page.</p></li>
+<li><p>Complete all relevant sections of the form to the best of your ability.</p></li>
+<li><p>Remember to save your work! The questionnaire will create a PDF file. You need to save this to your computer and then upload it to the Data Portal.</p></li>
+<li><p>You can also upload this file back into the Metadata Questionnaire if you need to make changes.</p></li>
+</ol>
+</div>
+<div id="upload-project-metadata-to-data-portal" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Upload Project Metadata to Data Portal<a href="index.html#upload-project-metadata-to-data-portal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="two-col">
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="images/4.3.0/upload_document.png" alt="Upload document"  />
+<p class="caption">
+Figure 1.3: Upload document
+</p>
+</div>
+<ol style="list-style-type: decimal">
+<li><p>From the Data Portal landing page, click <code>Add Resource -&gt; Upload Document</code>.</p></li>
+<li><p>Select the PDF file you saved from the Metadata Questionnaire in the previous step.</p></li>
+<li><p>Click <code>Upload</code> and once completed, click <code>View</code>.</p></li>
+</ol>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="images/4.3.0/edit_document_metadata.png" alt="Edit metadata"  />
+<p class="caption">
+Figure 1.4: Edit metadata
+</p>
+</div>
+<ol start="4" style="list-style-type: decimal">
+<li>You can now see your document, but we need to make it easier for others to find by adding some basic metadata. Click <code>Edit -&gt; Edit Metadata</code></li>
+</ol>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<img src="images/4.3.0/doc_metawizard_1.png" alt="Document metadata part 1"  />
+<p class="caption">
+Figure 1.5: Document metadata part 1
+</p>
+</div>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
+<img src="images/4.3.0/doc_metawizard_2.png" alt="Document metadata part 2"  />
+<p class="caption">
+Figure 1.6: Document metadata part 2
+</p>
+</div>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
+<img src="images/4.3.0/doc_metawizard_3.png" alt="Document metadata part 3"  />
+<p class="caption">
+Figure 1.7: Document metadata part 3
+</p>
+</div>
+<ol start="5" style="list-style-type: decimal">
+<li><p>Fill in basic information, click <code>Next</code> to proceed through pages of the wizard, and click <code>Update</code> to save your changes.</p></li>
+<li><p>While not everything may be applicable, there are several important fields all uploads should include:</p></li>
+</ol>
+<blockquote>
+<p>Title: Replace the filename with a concise, descriptive title (eg ‘Wave Dissipation Potential of Spartina alterniflora in the Bay of Fundy’).</p>
+<p>Abstract: Copy over the abstract from your Project Metadata document.</p>
+<p>Group: Your ResNet Landscape or Theme. Please note, you may need to be invited to a group before you can assign any uploads to it.</p>
+<p>Free-text Keywords: A free form space to associate descriptive keywords with your data. Multiple keywords can be added. Use your best judgement to assign terms that will help users discover data relevant to their interests.</p>
+<p>Attribution: Include additional authors and primary contributors.</p>
+<p>Other constraints: Any restrictions on publishing or sharing this data. Copy over from your Project Metadata PDF as needed.</p>
+</blockquote>
+</div>
+</div>
+<div id="upload-data-layers-and-documents-to-data-portal" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Upload Data Layers and Documents to Data Portal<a href="index.html#upload-data-layers-and-documents-to-data-portal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Now that you’ve uploaded your Project Description, it’s time to add data and documents related to your project.</p></li>
+<li><p>For spatial data, click <code>Add Resource -&gt; Upload dataset</code> . Supported formats include ESRI shapefile, GeoJSON, and GeoTIFF. Note, files larger than 150 mb may fail to upload. Contact the Data Manager for assistance with getting these files onto the portal.</p></li>
+<li><p>For non-spatial data, qualitative data, and supporting documents, click <code>Add Resource -&gt; Upload document</code>. These can include documents, spreadsheets, multimedia, and zipped archives.</p></li>
+<li><p>Once the items have are ready, view the resource and click <code>Edit -&gt; Edit Metadata</code>. Complete the form like you did for the the project description in the previous section.</p></li>
+</ol>
+<blockquote>
+<p>Title: Replace the filename with a concise, descriptive title (eg ‘Wave Dissipation Potential of Spartina alterniflora in the Bay of Fundy’).</p>
+<p><strong>Abstract: Copy over the relevant <code>Data Description</code> field from your Project Metadata document. It should be specific to the dataset, rather than for the overall project.</strong></p>
+<p>Group: Your ResNet Landscape or Theme. Please note, you may need to be invited to a group before you can assign any uploads to it.</p>
+<p>Free-text Keywords: A free form space to associate descriptive keywords with your data. Multiple keywords can be added. Use your best judgement to assign terms that will help users discover data relevant to their interests.</p>
+<p>Attribution: Include additional authors and primary contributors.</p>
+<p>Other constraints: Any restrictions on publishing or sharing this data. Copy over from your Project Metadata PDF as needed.</p>
+<p><strong>Related resources: Select your Project Description. This will create a collection of resources associated with your project!</strong></p>
+</blockquote>
+</div>
+<div id="finalize-and-publish" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Finalize and Publish<a href="index.html#finalize-and-publish" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Initially, your data and documents will only be visible to you (and the Data Portal administrators).</p></li>
+<li><p>After you’ve completed the previous steps, send an email to the Data Manager:</p></li>
+</ol>
+<blockquote>
+<p>to: <code>resnet.data.portal@gmail.com</code><br />
+subject: <code>Your landscape/theme: your project title</code><br />
+body: <code>List of resources ready for review</code></p>
+</blockquote>
+<ol start="3" style="list-style-type: decimal">
+<li><p>We’ll review the submission together, request changes if needed, and finalize your submission.</p></li>
+<li><p>If there are no restrictions due to data sensitivity or publication embargo, the layer will be made visible to the public.</p></li>
+</ol>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<img src="images/ResNet%20DP%20Workflow.svg" alt="Data publication workflow"  />
+<p class="caption">
+Figure 1.8: Data publication workflow
+</p>
+</div>
 
 </div>
 </div>

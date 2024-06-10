@@ -16,7 +16,6 @@ To get started, navigate to the [ResNet Data Portal](https://data.nsercresnet.ca
 ```{r, echo=F, fig.cap=c("Sign up form")}
 
 knitr::include_graphics("images/paste-E2DD497C.png")
-
 ```
 
 Fill in the form:

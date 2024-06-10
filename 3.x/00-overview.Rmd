@@ -1,0 +1,37 @@
+
+# Overview 
+
+<!-- Purpose of Data Portal -->
+
+The ResNet Data Portal was developed using [GeoNode](https://geonode.org/){target="_blank"}, an open-source platform for sharing geospatial maps and data. This document is intended to summarize and supplement the official [GeoNode Documentation](https://docs.geonode.org/en/4.3.0/usage/index.html){target="_blank"}.
+
+<!-- Living document -->
+
+<!-- report issues, submit content via github -->
+
+<!-- anchor links -->
+
+<!-- ## Navigation -->
+
+
+## Getting started
+
+1.  [Register](#registering-a-new-account) a new account
+2.  Setup your user [profile](#managing-your-profile)
+3.  [Join a group](#joining-a-group) for your Landscape or Theme
+4.  Download the [example data](#example-data)
+5.  [Upload](#uploading-a-new-layer) your first layers
+
+<!-- ::: {.infobox .info} -->
+
+<!-- **As of 2022-02-23:** There is an issue with the layer upload user interface where the progress indicator appears to halt at 80%. You should still be able to view your new layer by navigating to `Data > Layers`. We are working to resolve this issue. \ -->
+
+<!-- ![](images/paste-9E5EC659.png) -->
+
+<!-- ::: -->
+
+<!-- 3.  Combine -->
+
+<!-- 4.  Manage -->
+
+<!-- 5.  Publish -->

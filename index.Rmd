@@ -9,36 +9,147 @@ documentclass: book
 # link-citations: yes
 description: "Instructions for accessing and using the ResNet Data Portal."
 suppress-bibliography: true
-
 ---
 
-# Overview
+# Quick Start
 
-<!-- Purpose of Data Portal -->
+This guide will walk you through the steps of documenting your research project using the [Metadata Questionnaire](https://apps.nsercresnet.ca/app/metaquest-main "Metadata Questionnaire"){target="_blank"}, uploading that document to the [ResNet Data Portal](https://data.nsercresnet.ca "ResNet Data Portal"){target="_blank"}, and submitting data layers and documents to the Data Portal.
 
-The ResNet Data Portal was developed using [GeoNode](https://geonode.org/){target="_blank"}, an open-source platform for sharing geospatial maps and data. This document is intended to summarize and supplement the official [GeoNode Documentation](https://docs.geonode.org/en/4.3.0/usage/index.html){target="_blank"}.
+## Register for the Data Portal
 
-<!-- Living document -->
+::: two-col
+```{r, echo=F, fig.cap=c("Register account")}
 
-<!-- report issues, submit content via github -->
+knitr::include_graphics("images/4.3.0/user_reg.png")
 
-<!-- anchor links -->
+```
 
-<!-- ## Navigation -->
+```{r, echo=F, fig.cap=c("User profile")}
 
-## Getting started
+knitr::include_graphics("images/4.3.0/user_profile.png")
 
-1.  [Register](#registering-a-new-account) a new account
-2.  Setup your user [profile](#managing-your-profile)
-3.  [Join a group](#joining-a-group) for your Landscape or Theme
-4.  Download the [example data](#example-data)
-5.  [Upload](#uploading-a-new-layer) your first layers
+```
 
-::: {.infobox .info}
-**As of 2022-02-23:** There is an issue with the layer upload user interface where the progress indicator appears to halt at 80%. You should still be able to view your new layer by navigating to `Data > Layers`. We are working to resolve this issue. \
-![](images/paste-9E5EC659.png)
+1.  Navigate to the [ResNet Data Portal](https://data.nsercresnet.ca "ResNet Data Portal"){target="_blank"} and click `Register` to create an account (or `Sign in` if you already have one).
+
+2.  Enter an email where you'd like to be contacted, a username such as `firstname_lastname`, and a strong password. Save this password somewhere safe.
+
+3.  Edit your user profile to include your name and institution.
+
+4.  Join the group for your Landscape or Theme. Please note, in some cases the Data Manager and/or Group Manager will need to do this for you.
 :::
 
-<!-- 3.  Combine -->
-<!-- 4.  Manage -->
-<!-- 5.  Publish -->
+## Write Project Metadata
+
+1.  Navigate to the [Metadata Questionnaire](https://apps.nsercresnet.ca/app/metaquest-main "Metadata Questionnaire"){target="_blank"}.
+
+2.  Carefully read the instructions included on that page.
+
+3.  Complete all relevant sections of the form to the best of your ability.
+
+4.  Remember to save your work! The questionnaire will create a PDF file. You need to save this to your computer and then upload it to the Data Portal.
+
+5.  You can also upload this file back into the Metadata Questionnaire if you need to make changes.
+
+## Upload Project Metadata to Data Portal
+
+::: two-col
+```{r, echo=F, fig.cap=c("Upload document")}
+
+knitr::include_graphics("images/4.3.0/upload_document.png")
+
+```
+
+1.  From the Data Portal landing page, click `Add Resource -> Upload Document`.
+
+2.  Select the PDF file you saved from the Metadata Questionnaire in the previous step.
+
+3.  Click `Upload` and once completed, click `View`.
+
+```{r, echo=F, fig.cap=c("Edit metadata")}
+
+knitr::include_graphics("images/4.3.0/edit_document_metadata.png")
+
+```
+
+4.  You can now see your document, but we need to make it easier for others to find by adding some basic metadata. Click `Edit -> Edit Metadata`
+
+```{r, echo=F, fig.cap=c("Document metadata part 1")}
+
+knitr::include_graphics("images/4.3.0/doc_metawizard_1.png")
+
+```
+
+```{r, echo=F, fig.cap=c("Document metadata part 2")}
+
+knitr::include_graphics("images/4.3.0/doc_metawizard_2.png")
+
+```
+
+```{r, echo=F, fig.cap=c("Document metadata part 3")}
+
+knitr::include_graphics("images/4.3.0/doc_metawizard_3.png")
+
+```
+
+5.  Fill in basic information, click `Next` to proceed through pages of the wizard, and click `Update` to save your changes.
+
+6.  While not everything may be applicable, there are several important fields all uploads should include:
+
+> Title: Replace the filename with a concise, descriptive title (eg 'Wave Dissipation Potential of Spartina alterniflora in the Bay of Fundy').
+>
+> Abstract: Copy over the abstract from your Project Metadata document.
+>
+> Group: Your ResNet Landscape or Theme. Please note, you may need to be invited to a group before you can assign any uploads to it.
+>
+> Free-text Keywords: A free form space to associate descriptive keywords with your data. Multiple keywords can be added. Use your best judgement to assign terms that will help users discover data relevant to their interests.
+>
+> Attribution: Include additional authors and primary contributors.
+>
+> Other constraints: Any restrictions on publishing or sharing this data. Copy over from your Project Metadata PDF as needed.
+:::
+
+## Upload Data Layers and Documents to Data Portal
+
+1.  Now that you've uploaded your Project Description, it's time to add data and documents related to your project.
+
+2.  For spatial data, click `Add Resource -> Upload dataset` . Supported formats include ESRI shapefile, GeoJSON, and GeoTIFF. Note, files larger than 150 mb may fail to upload. Contact the Data Manager for assistance with getting these files onto the portal.
+
+3.  For non-spatial data, qualitative data, and supporting documents, click `Add Resource -> Upload document`. These can include documents, spreadsheets, multimedia, and zipped archives.
+
+4.  Once the items have are ready, view the resource and click `Edit -> Edit Metadata`. Complete the form like you did for the the project description in the previous section.
+
+> Title: Replace the filename with a concise, descriptive title (eg 'Wave Dissipation Potential of Spartina alterniflora in the Bay of Fundy').
+>
+> **Abstract: Copy over the relevant `Data Description` field from your Project Metadata document. It should be specific to the dataset, rather than for the overall project.**
+>
+> Group: Your ResNet Landscape or Theme. Please note, you may need to be invited to a group before you can assign any uploads to it.
+>
+> Free-text Keywords: A free form space to associate descriptive keywords with your data. Multiple keywords can be added. Use your best judgement to assign terms that will help users discover data relevant to their interests.
+>
+> Attribution: Include additional authors and primary contributors.
+>
+> Other constraints: Any restrictions on publishing or sharing this data. Copy over from your Project Metadata PDF as needed.
+>
+> **Related resources: Select your Project Description. This will create a collection of resources associated with your project!**
+
+
+## Finalize and Publish
+
+1.  Initially, your data and documents will only be visible to you (and the Data Portal administrators). 
+
+2.  After you've completed the previous steps, send an email to the Data Manager:
+
+> to: `resnet.data.portal@gmail.com`  
+> subject: `Your landscape/theme: your project title`  
+> body: `List of resources ready for review`  
+
+3. We'll review the submission together, request changes if needed, and finalize your submission.
+
+4. If there are no restrictions due to data sensitivity or publication embargo, the layer will be made visible to the public.
+
+```{r, echo=F, fig.cap=c("Data publication workflow")}
+
+knitr::include_graphics("images/ResNet DP Workflow.svg")
+
+```
