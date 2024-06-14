@@ -40,6 +40,10 @@ pre code {
   clear:both;
 }
 
+.figure{
+  margin: 1vw;
+}
+
 .two-col .figure{
   float: right;
   max-width:40%;
@@ -90,4 +94,8 @@ pre code {
   margin-top:.5em;
   margin-bottom:0em !important;
   text-align:left;
+}
+
+.full-width{
+   clear:both;
 }

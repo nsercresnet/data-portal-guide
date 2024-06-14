@@ -82,6 +82,26 @@ knitr::include_graphics("images/4.3.0/edit_document_metadata.png")
 
 4.  You can now see your document, but we need to make it easier for others to find by adding some basic metadata. Click `Edit -> Edit Metadata`
 
+5.  Fill in basic information, click `Next` to proceed through pages of the wizard, and click `Update` to save your changes.
+
+6.  While not everything may be applicable, there are several important fields all uploads should include:
+:::
+
+> Title: Replace the filename with a concise, descriptive title (eg 'Wave Dissipation Potential of Spartina alterniflora in the Bay of Fundy').
+>
+> Abstract: Copy over the abstract from your Project Metadata document.
+>
+> Group: Your ResNet Landscape or Theme. Please note, you may need to be invited to a group before you can assign any uploads to it.
+>
+> Free-text Keywords: A free form space to associate descriptive keywords with your data. Multiple keywords can be added. Use your best judgement to assign terms that will help users discover data relevant to their interests.
+>
+> Attribution: Include additional authors and primary contributors.
+>
+> Other constraints: Any restrictions on publishing or sharing this data. Copy over from your Project Metadata PDF as needed.
+
+ 
+::: three-col
+
 ```{r, echo=F, fig.cap=c("Document metadata part 1")}
 
 knitr::include_graphics("images/4.3.0/doc_metawizard_1.png")
@@ -100,21 +120,6 @@ knitr::include_graphics("images/4.3.0/doc_metawizard_3.png")
 
 ```
 
-5.  Fill in basic information, click `Next` to proceed through pages of the wizard, and click `Update` to save your changes.
-
-6.  While not everything may be applicable, there are several important fields all uploads should include:
-
-> Title: Replace the filename with a concise, descriptive title (eg 'Wave Dissipation Potential of Spartina alterniflora in the Bay of Fundy').
->
-> Abstract: Copy over the abstract from your Project Metadata document.
->
-> Group: Your ResNet Landscape or Theme. Please note, you may need to be invited to a group before you can assign any uploads to it.
->
-> Free-text Keywords: A free form space to associate descriptive keywords with your data. Multiple keywords can be added. Use your best judgement to assign terms that will help users discover data relevant to their interests.
->
-> Attribution: Include additional authors and primary contributors.
->
-> Other constraints: Any restrictions on publishing or sharing this data. Copy over from your Project Metadata PDF as needed.
 :::
 
 ## Upload Data Layers and Documents to Data Portal
