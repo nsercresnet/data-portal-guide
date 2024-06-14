@@ -15,18 +15,14 @@ suppress-bibliography: true
 
 This guide will walk you through the steps of documenting your research project using the [Metadata Questionnaire](https://apps.nsercresnet.ca/app/metaquest-main "Metadata Questionnaire"){target="_blank"}, uploading that document to the [ResNet Data Portal](https://data.nsercresnet.ca "ResNet Data Portal"){target="_blank"}, and submitting data layers and documents to the Data Portal.
 
+For a more in-depth look at the Data Portal's features, please see the [Full User Guide](https://docs.geonode.org/en/4.3.0/usage/index.html "GeoNode User Guide"){target="_blank"}.
+
 ## Register for the Data Portal
 
 ::: two-col
-```{r, echo=F, fig.cap=c("Register account")}
+```{r, echo=F, fig.cap=c("Register an account")}
 
 knitr::include_graphics("images/4.3.0/user_reg.png")
-
-```
-
-```{r, echo=F, fig.cap=c("User profile")}
-
-knitr::include_graphics("images/4.3.0/user_profile.png")
 
 ```
 
@@ -34,9 +30,14 @@ knitr::include_graphics("images/4.3.0/user_profile.png")
 
 2.  Enter an email where you'd like to be contacted, a username such as `firstname_lastname`, and a strong password. Save this password somewhere safe.
 
-3.  Edit your user profile to include your name and institution.
+```{r, echo=F, fig.cap=c("Edit user profile")}
 
-4.  Join the group for your Landscape or Theme. Please note, in some cases the Data Manager and/or Group Manager will need to do this for you.
+knitr::include_graphics("images/4.3.0/user_profile.png")
+
+```
+
+3.  Click menu on the top right and then `Profile`. Click `Edit profile` and include your name and institution.
+
 :::
 
 ## Write Project Metadata
@@ -54,15 +55,22 @@ knitr::include_graphics("images/4.3.0/user_profile.png")
 ## Upload Project Metadata to Data Portal
 
 ::: two-col
+
+```{r, echo=F, fig.cap=c("Upload document")}
+
+knitr::include_graphics("images/4.3.0/add_resource.png")
+
+```
+
+1.  From the Data Portal landing page, click `Add Resource -> Upload Document`.
+
 ```{r, echo=F, fig.cap=c("Upload document")}
 
 knitr::include_graphics("images/4.3.0/upload_document.png")
 
 ```
 
-1.  From the Data Portal landing page, click `Add Resource -> Upload Document`.
-
-2.  Select the PDF file you saved from the Metadata Questionnaire in the previous step.
+2.  Click `Select Files` and choose the PDF file you saved from the Metadata Questionnaire in the previous step.
 
 3.  Click `Upload` and once completed, click `View`.
 
@@ -117,7 +125,7 @@ knitr::include_graphics("images/4.3.0/doc_metawizard_3.png")
 
 3.  For non-spatial data, qualitative data, and supporting documents, click `Add Resource -> Upload document`. These can include documents, spreadsheets, multimedia, and zipped archives.
 
-4.  Once the items have are ready, view the resource and click `Edit -> Edit Metadata`. Complete the form like you did for the the project description in the previous section.
+4.  Once an item has finished uploading, view the resource and click `Edit -> Edit Metadata`. Complete the form like you did for the the project description in the previous section. Make sure to add your Project Metadata under `Related resources`. This will create link between your project and any associated items.
 
 > Title: Replace the filename with a concise, descriptive title (eg 'Wave Dissipation Potential of Spartina alterniflora in the Bay of Fundy').
 >
@@ -146,7 +154,7 @@ knitr::include_graphics("images/4.3.0/doc_metawizard_3.png")
 
 3. We'll review the submission together, request changes if needed, and finalize your submission.
 
-4. If there are no restrictions due to data sensitivity or publication embargo, the layer will be made visible to the public.
+4. Once the submission is finalized, and if there are no restrictions due to data sensitivity or publication embargo, the layer will be made visible to the public.
 
 ```{r, echo=F, fig.cap=c("Data publication workflow")}
 

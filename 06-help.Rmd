@@ -29,7 +29,7 @@ Always include:
 
 -   Subject: A succinct description of the task you're attempting and the issue encountered.
     -   *Poor: "Can't see file"*
-    -   *Good: "Data Portal - Unable to view layer after upload"*
+    -   *Good: "Unable to view layer after upload"*
 -   Objective: What are you trying to do?
 -   Issue: What obstacles or errors have you encountered?
 -   Troubleshoot: Have you tried any other methods?
@@ -40,7 +40,7 @@ If related to a dataset/layer, also include:
 -   Format
 -   Filename
 -   File size
--   Projection (see [Projection](#projection))
+-   Projection (if spatial)
 
 If related to the Data Portal, also include:
 
@@ -53,7 +53,7 @@ Send your support request email to `resnet.data.portal@gmail.com`.
 
     from: test.user@email.com
     to: resnet.data.portal@gmail.com 
-    subject: Data Portal - Unable to view layer after upload
+    subject: Unable to view layer after upload
 
     Hello,
 

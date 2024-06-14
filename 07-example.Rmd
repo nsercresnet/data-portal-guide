@@ -13,7 +13,7 @@ All files are projected in WGS84 (EPSG:4326). **Layers created using this exampl
 
 2.  Extract the zip file on your local computer
 
-3.  [Upload](#uploading-a-new-layer) the layer(s)
+3.  [Upload](#upload-data-layers-and-documents-to-data-portal) the layer(s)
 
 4.  Try out Data Portal functions
 
